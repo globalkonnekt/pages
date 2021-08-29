@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    
+    <title>Global Konnekt- Press & Media</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">    
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+    img:hover{
+      opacity: 0.8;
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+      .mainimg{
+      width: 400px;
+      height: 300px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+          .mainimg {
+            width: 300px;
+            height: 200px;
+          }
+    }
+    
+    .mainimg2{
+      width: 300px;
+      height: 300px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+      .mainimg2 {
+            width: 200px;
+            height: 200px;
+          }
+        }
+
+    .mainimg3{
+      width: 250px;
+      height: 300px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+          .mainimg3 {
+            width: 150px;
+            height: 200px;
+          }
+        }
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <div class="grid-container">
+        <div class="item1 w3-animate-top">
+            <div class="toppane" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="item2 w3-animate-left">
+          <div class="container2" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a style="color: green;" href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3 w3-animate-right" style="padding-top: 0px;">
+          <h1 style="text-align: center;background-color: aliceblue;">Press and Media</h1>
+          <div style="display: flex;background-color: bisque;padding: 10px;">
+            <div>
+              <h2 style=padding-left:20px;">The Walk Towards Perfection</h2>
+              <p style="padding-left:20px;"><strong>Fashion Workshop with Prasad Bidappa and Noyonika Chatterjee</strong><br><br>
+                The catwalk is not a cakewalk - this is what many youngsters from Dubai found out, as they were put through their paces by well-known Indian model Nayonika Chatterjee and choreographer and model-trainer Prasad Bidapa.
+                <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="the_walk_towards_perfection.html"><strong>Read More</strong></a></p></span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item3 w3-animate-right" style="padding-top: 0px;grid-row: auto;">
+          <div style="display: flex;background-color: bisque;padding: 10px;">
+            <div>
+              <h2 style=padding-left:20px;">Press Meet with Dulquar Salman</h2>
+              <p style="padding-left:20px;"><strong>Dulquar Salman, the son of Mammoty stars at a press meet for "Solo" a bilingual film made in Tamil and Malayalam directed by Bijoy Nambiar</strong><br><br>
+                Expectations run high when one is the son of an illustrious well known actor  father in the Malayalam film industry.Dulquar Salman ,the son of Mammoty stars in Solo a bilingual film made in Tamil and Malayalam directed by Bijoy Nambiar and expectations are surely high.
+                <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="dulquar_salman.html"><strong>Read More</strong></a></p></span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item3 w3-animate-right" style="padding-top: 0px;grid-row: auto;">
+          <div style="display: flex;background-color: bisque;padding: 10px;">
+            <div>
+              <h2 style=padding-left:20px;"><cite>UNLIKE MEN WE COME TO TERMS WITH REALITIES SOONER</cite></h2>
+              <p style="padding-left:20px;"><strong>Bollywood's ultimate glamour girl of the Eighties, Zeenat Aman, now has the time to extend her creative pursuits. In a chat with CT, she reveals where she draws her inspiration from</strong><br><br>
+                A natural progression from being a beauty queen to films was expected, but to become the undisputed glamour girl of Bollywood with over 80 films and each of them lending a new dimension to the essence of sensuality and glamour was something that only Zeenat Aman could have done with such grace and poise.
+                <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="zeenat_aman.html"><strong>Read More</strong></a></p></span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item3 w3-animate-right" style="padding-top: 0px;grid-row: auto;">
+          <div style="display: flex;background-color: bisque;padding: 10px;">
+            <div>
+              <h2 style=padding-left:20px;">Her master poise</h2>
+              <p style="padding-left:20px;"><strong>Celebrated Indian classical dancer and choreographer Mrinalini Sarabhai, still going strong in her tenth decade, silently and singlehandedly led a cultural revolution that led to the renaissance of dance in India and thousands of students learning at her performing arts school, Darpana</strong><br><br>
+                Mrinalini Sarabhai needs no introduction. One of India’s most famous danseuses, Padma Bhushan winner, wife of Dr Vikram Sarabhai — father of the Indian space programme — mother of Mallika Sarabhai, also a renowned dancer and actress, and founder of Darpana Academy of Performing Arts, Sarabhai is indeed a living legend.
+                <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="master_poise.html"><strong>Read More</strong></a></p></span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item3 w3-animate-right" style="padding-top: 0px;grid-row: auto;">
+          <div style="display: flex;background-color: bisque;padding: 10px;">
+            <div>
+              <h2 style=padding-left:20px;">'Journalistic freedom of expression was never an issue for me'</h2>
+              <p style="padding-left:20px;"><strong>Al Jazeera's Riz Khan talks about his experiences in the limelight, as a presenter for top TV news channels</strong><br><br>
+                A MAN who almost became a doctor, who enjoys the new found happiness of his twenty month old daughter, who hobnobs with the rich and famous, and travels all over the world to make people listen to him is Riz Khan, the international face of television journalism.
+                <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="riz_khan.html"><strong>Read More</strong></a></p></span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item3 w3-animate-right" style="padding-top: 0px;grid-row: auto;">
+          <div style="display: flex;background-color: bisque;padding: 10px;">
+            <div>
+              <h2 style=padding-left:20px;">A vision of success</h2>
+              <p style="padding-left:20px;"><strong>Jyoti Easwaran talks to a cross-section of Emiratis about the glory and progress of our nation</strong><br><br>
+                AS UAE celebrates its 36th National day today, it is a time for introspection and celebrations as the nation marches ahead with all the determination it has demonstrated since its inception just a short while ago.
+                <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="vision_of_success.html"><strong>Read More</strong></a></p></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        
+    </div>        
+    <br><br><br>
+    <footer style="background-color: honeydew;padding-top: 5px;">
+      <hr size="1" width="99%" color="black">
+      <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+    </footer>  
+</body>
+</html>

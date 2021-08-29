@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    
+    <title>Turning the Tablas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+    
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+    img:hover{
+      opacity: 0.8;
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+    #more {display: none;}
+
+    button:hover{
+      opacity: 0.5;
+    }
+
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    
+    <div class="grid-container">
+      <div class="item1">
+            <div class="toppane w3-animate-top" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+      </div>
+        <br><br>
+
+        <div class="item2">
+          <div class="container2 w3-animate-left" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3" style="display: flex;padding-top: 20px;flex-direction: column;">
+          <h1 style="margin: auto;">Turning the Tablas</h1>
+          <br>
+          <img style="width: 30%;margin: auto;" src="images/samanvay sitar concert xpress ad-1.jpg" alt="">
+        </div>
+
+        <div class="item3" style="grid-row: auto;display: flex;">
+          <h3 style="margin: auto;">Read the article about this event on <a href="http://gulfnews.com/life-style/people/turning-the-tablas-1.25732" target="_blank" style="color: black;">Gulf News</a> or here, at Global Konnekt</h3>
+        </div>
+
+        <div class="item3" style="display: flex;grid-row: auto;flex-direction: column;background-color: aliceblue;padding: 10px;">
+          <h1>Anuradha Pal, Indian tabla artist, who was recently in Dubai</h1>
+          <img src="images/1.23967_1814488392_16be0f8f4eb_large.jpg" width="30%" alt="">
+          <p>
+            <strong>August 28, 2008 23:44</strong><br>
+            I consider myself fortunate to have had the power to dare to dream. My dreams led me to pursue my hobby that soon became my profession. Now I can't think of life without tabla.<span id="dots">...</span><span id="more">
+            <br>
+            No matter what the field, the power to succeed comes from strong determination. Fortunately for me my parents, who are accomplished professionals in their own right, supported me from the outset.<br>
+            <br>
+            My father, Devinder, is a respected consultant in the pharmaceutical industry and my mother, Ila, is a well-known painter and writer.<br>
+            <br>
+            They were both first rankers in their master's programmes, so I was always inspired to study and develop multiple interests in arts, science, sports, Indian and world culture, archaeology, philosophy and literature.<br>
+            <br>
+            My parents and my husband, Shyam Sharma, inspire me. Their support and encouragement helps me deal with the gender discrimination that I still encounter in my profession and learn and practice with complete dedication.<br>
+            <br>
+            <strong>Why the tabla?</strong><br>
+            <br>
+            People always ask why I chose the tabla and my answer is, "Why not?"<br>
+            <br>
+            I started learning Indian classical vocal music at the age of seven with tabla as an adjunct to get a firm foundation of Taal (rhythmical pattern), Sur (a form of singing) and Raga (melodic modes).<br>
+            <br>
+            Soon, I found the beautiful world of percussion and the language of rhythm so engaging that I started practising tabla with greater commitment. I was able to give my first public tabla solo performance when I was 10 and a half! As I learnt and practised, my interest developed into a passion and then a profession. <br>
+            <br>
+            Being female and not from a family of musicians was a huge disadvantage since the traditional, chauvinistic sceptics were unwilling to give me a fair chance and a level playing field to learn and prove my talent. <br>
+            <br>
+            I was inspired by my muses – tabla legends Ustad Alla Rakha and Zakir Hussain. Their amazing performances
+            and uncompromising standards encouraged me to practice for almost 10 hours daily, sacrificing everything that children normally do – friends, playtime, TV and so on. Playing the tabla became an obsession. It became my priority along with my studies. <br>
+            <br>
+            <strong>Changing tradition</strong>
+            <br><br>
+            Over the years, I had to struggle to break traditional barriers. From performing my first tabla solo to accompanying India's leading musicians and creating revolutionary bands like the all-female group Stree Shakti and a world fusion group, Recharge, it was an uphill task. It still is! I continue to walk on this path with even greater conviction and a desire to discover new vistas of creativity and musical excellence.
+            As I continued to prove myself, apprehension gave way to awe, respect and appreciation. It is this change – from both industry professionals and the audience – that motivated me.
+            <br><br>
+            My first performance in Dubai was along with Ustaad Shahid Pervez Khan (on the sitar) at the Samanvay concert. I could saw the vibrancy of the city in its music afficinados.
+            <br><br>
+            <strong>Competing in the spirit of music</strong><br><br>
+            I love Jugalbandis (an ancient Indian art form where two musicians with different instruments or styles perform together), as they goad me to go beyond what I have done earlier. I have to understand the main musicians' style and respond in a convincing manner in a few seconds. I love the challenge.
+            <br><br>
+            The audience can tell that I enjoy the 'dialogue'
+            and interaction. Healthy respect for other artists is very essential to maintain equilibrium on the stage. Experimentation is key. I have tried to merge world music with tabla in all new music formats.
+            <br><br>
+            <strong>Learning curve</strong>
+            <br><br>
+            I learnt with complete surrender and respect from my master of Shishya Parampara. I had the benefit of excellent training.
+            Performing with music stalwarts gave me the confidence to discover the beauty of tabla and its depth. Performing at the World of Music and Dance Festival in Reading, UK, for an audience of 150,000 and hearing them shout, "We want more!" after my performance is a memory
+            I'll treasure.
+            <br><br>
+            I believe art is not restrictive. The more it is free, the more it blossoms. I enjoyed scoring music for the highly acclaimed film by MF Hussain Gaja Gamini. I have directed music for commercial music albums like Nirvana and Stree Shakti, which are huge hits in India and elsewhere.
+            <br><br>
+            I have learnt so much from not only my teachers but also from every musician and performance I have done around the world. Since our music is improvisatory and spontaneous, the challenge of rising to their standards is a great feeling.
+            <br><br>
+            <strong>My ambitions</strong><br><br>
+            I dream of becoming the best tabla player and the most versatile percussionist in the world. I will keep working hard. I hope I will always have courage, strength and conviction.
+            <br><br>
+            <cite>– As told to Jyoti Easwaran, a freelance writer based in Dubai</cite>
+          </span>
+
+        </div>
+
+        <div class="item3" style="grid-row: auto;">
+          <button onclick="myFunction()" id="myBtn" style="background-color: rgba(223, 104, 35);border: none;  color: white;padding: 15px 32px;text-align: center;text-decoration: none;">Read more</button>
+        </div>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more"; 
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less"; 
+              moreText.style.display = "inline";
+            }
+          }
+          </script>
+
+      </div>
+      <br><br><br>
+      <footer style="background-color: honeydew;padding-top: 5px;">
+        <hr size="1" width="99%" color="black">
+        <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+      </footer>  
+</body>
+</html>

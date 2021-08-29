@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    
+    <title>My Date with Veeraswamy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+    
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+    img:hover{
+      opacity: 0.8;
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+    #more {display: none;}
+
+    button:hover{
+      opacity: 0.5;
+    }
+
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    
+    <div class="grid-container">
+      <div class="item1">
+            <div class="toppane w3-animate-top" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+      </div>
+        <br><br>
+
+        <div class="item2">
+          <div class="container2 w3-animate-left" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3" style="display: flex;padding-top: 20px;flex-direction: column;">
+          <h1 style="margin: auto;">My Date with Veeraswamy</h1>
+          <br>
+          <img style="width: 50%;margin: auto;" src="images/38709907_10155806482868036_5092507156243021824_n.jpg" alt="">
+        </div>
+
+        <div class="item3" style="grid-row: auto;display: flex;">
+          <h3 style="margin: auto;">Read the article about this event on <a href="http://www.telelifemag.com/My_Date_with_Veeraswamy/1452/Eat_Beat?fbclid=IwAR0Kuo8kzJVyJmzvDwAkz74S4j8CMy5aNMpZZKm-M2pYT89wjOW791pimuM#.W2GwroSSLn1.whatsapp" target="_blank" style="color: black;">telelifemag</a> or here, at <a style="color: black;" href="#article"> Global Konnekt</a></h3>
+        </div>
+
+        <div class="item3 w3-animate-right" style="grid-row: auto;display: flex;">
+          <hr width="99%" color="black" size="2">
+      </div>        
+
+      <div class="item3" style="display: flex;grid-row: auto;">
+          <h2>Picture Courtesy: Tele Life Magazine</h2>
+      </div>
+
+      <div class="item3" style="display: flex;grid-row: auto;">
+          <img src="images/vs1.jpg" style="width: 45%;margin: auto;" alt="">
+          <img src="images/vs2.jpg" style="width: 45%;margin: auto;" alt="">
+      </div>
+
+      <div class="item3" style="display: flex;grid-row: auto;">
+          <img src="images/vs3.jpg" style="width: 45%;margin: auto;" alt="">
+          <img src="images/vs4.jpg" style="width: 45%;margin: auto;" alt="">
+      </div>
+      
+      
+      <div class="item3 w3-animate-right" style="grid-row: auto;display: flex;">
+        <hr width="99%" color="black" size="2">
+    </div>       
+
+        <div class="item3" style="display: flex;grid-row: auto;flex-direction: column;background-color: aliceblue;padding: 10px;" id="article">
+          <h1>Jyoti Easwaran travels back in time to the Raj era at Veeraswamy the fine dining Indian Restaurant at London</h1>
+          <p>
+            <strong>August 1st, 2018</strong><br>
+            My Virgin Atlantic flight to London saw me enjoying two interesting movies ,Viceroys House directed by Gurinder Chadha and Victoria and Abdul which has Dame Judi Dench playing the matronly Queen Victoria with restrain and power. The thoughts of importance of regal fervour in day to day life of Londoners was weighing heavily in my mind with historical monuments posing with élan and confidence surrounded by an air of nostalgia, glory, acts of subservience, wars, and of course the unmistakable fondness for Curries and Indian Cuisine.<span id="dots">...</span><span id="more">
+            <br>
+            A visit to an upmarket department store led me to the aisle of chutneys, spreads and pickles, sauces, and marinades and suddenly I saw my daughter’s favourite Lime chilli chutney, and the name Veeraswamy on the wrapper got me digging more about this unusual name.<br>
+            <br>
+            It is interesting to note that a printing spell error of Veerasawmy led to the present name of Veeraswamy Restaurant. My love to sample the food and delve into its history got the better of me. I began my sojourn and found the restaurant quaintly situated in the bustling Regent street with its trademark signage which one can’t miss. The place boasts of luxurious Raj inspired décor and the photographs that adorn the walls feature most of the worlds important names in history from varying spheres of politics, cinema, Arts, Business and others.<br>
+            <br>
+            Veeraswamy was opened in 1926 by the grandson of an English Army General and an Indian Hyderabadi Princess, the same year when the present Queen of England Elizabeth was born. For its launch authentic dishes from India were the astonishing delicacies to look forward to and soon it became a big favourite among the upper-class Londoners and visiting dignitaries to the iconic city.<br>
+            <br>
+            Super excited to dine in at an iconic place that had seen the likes of Mahatma Gandhi, Winston Churchill, Charlie Chaplin, Indira Gandhi, I took extra time to go through the menu and savour its intricacies. Beginning with the splendid Raj Kachori filled with crisps, yoghurt, tamarind chutney, the process of salivation had begun in real earnest. The paneer sandwich starter, and the exquisitely fried samosa transported me to the realm of sheer bliss. The starters paved way to the main course of rotis and garlic naan, the memorable fresh pineapple curry, a mixture of spring vegetable with asparagus and pumpkin and hyderabadi dal consisting of slow cooked yellow dals and infused with little tanginess. Non-vegetarian dishes like Roast duck vindaloo, Kerala prawns, Kashmiri Rogan Josh are highly popular here among the dedicated clientele with oft repeat visits.<br>
+            <br>
+            An Indian fare can’t be complete with out the desserts so becoming and famous from the Indian subcontinent. Our Sugar laden Gulabjamuns, caramelised Ice-cream with fruit was the grand finale to a delectable lunch which had the amalgamation of taste, finesse of serving, grandeur of interiors, nostalgia of the past, touch of regality and fine drinks.<br>
+            <br>
+            The turbulent years of the thirties and forties also saw Veeraswamy Restaurant stand tall and firm and with the present ownership amongst the family members of the famous Chutney Mary group. The restaurant was awarded the famous Michelin star in 2016.<br>
+            <br>
+            Dubai Indians, Arabs and other expatriates frequently visit Veeraswamy and for many of those who haven’t visited, the bait is to experience a culinary journey amongst the rich and famous with the exquisite settings of a royal rich ambience. With options of set meal and A la carte choices the price to dine doesn’t come cheap but the satiated quest for taste and atmosphere balances the loss of pounds in the wallet. An experience to cherish and taste to savour for a long time, Veeraswamy of London stands tall in the world of high and fine dining cuisine that elevates Indian cuisine to a high pedestal.<br>
+            <br>
+            <cite>Jyoti Easwaran is a health and Business Consultant with interest in travel, arts and culinary explorations.</cite>
+          </span>
+        </div>
+
+        <div class="item3" style="grid-row: auto;">
+          <button onclick="myFunction()" id="myBtn" style="background-color: rgba(223, 104, 35);border: none;  color: white;padding: 15px 32px;text-align: center;text-decoration: none;">Read more</button>
+        </div>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more"; 
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less"; 
+              moreText.style.display = "inline";
+            }
+          }
+          </script>
+      </div>
+      <br><br><br>
+      <footer style="background-color: honeydew;padding-top: 5px;">
+        <hr size="1" width="99%" color="black">
+        <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+      </footer>  
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Global Konnekt- Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube
+    {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu;}
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+      @media only screen and (max-width: 1024px) {
+          .mainimg {
+            width: 192px;
+            height: 108px;
+          }
+        }
+      
+    
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <div class="grid-container">
+        <div class="item1 w3-animate-top">
+            <div class="toppane" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text active" style="display: block;" href="index.html"> Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a>
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="item2 w3-animate-left">
+          <div class="container2" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+              <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+              <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+              <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+              <li style="padding-bottom: 7px;"><a href="pm.html">Press and Media</a></li>
+              <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+<!--
+        <div class="item2 w3-animate-left" style="grid-row: 6;background-color: cornsilk;height: 100px;width: 285px;">
+          <p>Contact us for advertising here.</p>
+        </div>
+-->
+        <div class="item3 w3-animate-right">
+          <div style="display: flex;padding-top: 20px;">
+            <img style="border: 3px solid blanchedalmond;width: 384px;height: 216px;margin-top: 20px;" class="mainimg" src="images/whoweare.jpg" alt="GK">
+            <div>
+              <h1 style="padding-left:20px;"><strong>WELCOME TO GLOBAL KONNEKT</strong></h1>
+              <p style="padding-left:20px;">
+                A Media, Events, Brand Management and Business Consultancy based in Dubai. Global Konnekt is a reputed Business Consultancy which delivers its promise to customers and clients With offices in Dubai and India, we connect you across the globe through Media and Public Relations, Image Consultancy and Business solutions In today’s corporate and social environment Media, Communication and Brand Management along with a whole host of media related activities and events can help you connect to the right target segment.
+                Our competency in maintaining continuous cordial relations with esteemed members of the press, advertising fraternity, event managers, and Production houses will enhance the brand worth of corporate and individuals. Global Konnekt is your partner in progress and help you to excel in the Market Place under the most challenging circumstances.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item3 w3-animate-right" style="grid-row: auto;display: flex;padding-top: 0px;">
+          <p> <img src="images/check-lg.svg" alt="/"> We transform ideas to reality <img src="images/check-lg.svg" alt="/"> Your vision becomes our Mission <img src="images/check-lg.svg" alt="/"> Your Brand has our commitment <br>
+            <br>Our areas of operation are in Brand Launches, New Product introduction, Media and Public Relations, HR and training, Conferences and events</p>
+        </div>
+
+        <div class="item3 w3-animate-right" style="grid-row: auto;display: flex;">
+          <hr width="99%" color="black">
+        </div>
+
+        <div class="item3 w3-animate-right" style="grid-row: auto;display: flex;">
+          <div style="line-height: 25px;">
+            <h1>ABOUT US</h1>
+            <p>Ms.Jyoti Easwaran is an enthusiastic person who combines the nuances of Skillful Communication Skills, Scientific Principles of Human Nature to create a conducive ambiance in an organization to excel and establish itself in the Business Circles. She brings with her a varied experience in Sales and Marketing, Public Relations, Corporate Communications, Event Management, and HRD.Jyoti has conducted and handled Various International Seminars, Conferences, Brand Management, and Product Launches. She has dealt with high profile personalities from all walks of life, handled Media and, moderated talks and workshopsWith a rich experience in writing, event management , business consultancy and presenting television programs in India and Dubai Jyoti has had the opportunity to interview and present artists and speakers of the highest caliber to a wide range of audience.</p>
+            <br>
+            <h3>SOME OF THE PRODUCT AND CONCEPT CATEGORIES WORKED ON HAVE BEEN:</h3>
+            <ol style="list-style-type: disc;">
+              <li>Oriflame Cosmetics</li>
+              <li>Everyuth Face Peel Off Mask</li>
+              <li>Spices from Kerala</li>
+              <li>Dubai Lifestyle City</li>
+              <li>More than Eight International Conference and Trade shows</li>
+              <li>The theme of the “Profession of Pharmacy for a better tomorrow “</li>
+              <li>Conceptualizing and Marketing training programs</li>
+              <li>Fashion workshop in Dubai</li>
+              <li>Communication through traditional and new media</li>
+              <li>Revenue generating PR website</li>
+              <li>Millennium Band rock concert in Hyderabad, India</li>
+              <li>Marketing and sales head for the Middle East for Global Brand Forum 2006 at Singapore – Nov 6 and 7 at the Ritz Carlton</li>
+              <li>Marketing and Sales Head for the Middle East for Global Brand Forum 2007 at Singapore – Aug 6 and 7 at the Ritz Carlton</li>
+              <li>www.globalbrandforum.org</li>
+              <li>Middle East representation for India Fashion Forum 2008 Mumbai India</li>
+              <li>www.imagesfashionforum.com</li>
+            </ol>
+            <p>Jyoti has received recognition to her skills and work in the form of certificates, trophies and paper presentations .She has presented some very interesting programmes on television in India and Dubai.</p>
+            <p>As a journalist Jyoti has contributed to Khaleej Times, Gulf News, Trade and travel News, Times of India, Economic times, Femina, Society, Savvy and others</p>
+            <p>As part of the training modules she has worked on soft skills like Time Management ,Decision Making,Communication and listening skills and some others as requested by clients .As a media analyst she was a part of the World Advertising Congress and Leaders in Dubai the high profile conferences that focused on Communication and leadership.</p>
+            <p>Jyoti enjoys her work and believes in the philosophy that an excellent Employee contributes to the growth of an excellent organization. She is fond of reading, writing, travelling.meeting new people and good cuisine. She is comfortable in a multicultural and multinational environment and believes in the strength of Powerful communication that in today’s context defines Business and spurs Economic Growth.</p>
+          </div>
+        </div>
+        
+        <div class="item3 w3-animate-right" style="grid-row: auto;display: flex;">
+          <hr width="99%" color="black">
+        </div>
+
+        <div class="item3 w3-animate-right" style="grid-row: auto;display: flex;">
+          <div style="line-height: 25px;">
+            <h1>SERVICES</h1>
+            <p>Our team plans and executes every aspect of your event with precision – from set and stage production to driving attendance. We know that first impressions count and that the strength of what we create is how you and your brand will be remembered.</p>
+            <br>
+            <h3>WE HANDLE:</h3>
+            <ol style="list-style-type: disc;">
+              <li>Conferences and Award ceremonies</li>
+              <li>Media relations</li>
+              <li>Concerts and Music events</li>
+              <li>Artists Management</li>
+              <li>Gala Dinners and Seminars</li>
+              <li>Product launches</li>
+              <li>Pre and Post event communications</li>
+              <li>Special Events tailored to requirements of the client</li>
+            </ol>
+          </div>
+        </div>
+
+    </div>
+    <br><br><br>
+    <footer style="background-color: honeydew;padding-top: 5px;">
+      <hr size="1" width="99%" color="black">
+      <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+    </footer>  
+</body>
+</html>

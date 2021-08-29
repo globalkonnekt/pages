@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    
+    <title>Sangeet Sandhya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+    
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+    img:hover{
+      opacity: 0.8;
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+    #more {display: none;}
+
+    button:hover{
+      opacity: 0.5;
+    }
+
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    
+    <div class="grid-container">
+      <div class="item1">
+            <div class="toppane w3-animate-top" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+      </div>
+        <br><br>
+
+        <div class="item2">
+          <div class="container2 w3-animate-left" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3" style="display: flex;padding-top: 20px;flex-direction: column;">
+          <h1 style="margin: auto;">Sangeet Sandhya</h1>
+          <br>
+          <img style="width: 50%;margin: auto;" src="images/invitation_Front final.jpg" alt="">
+        </div>
+
+        <div class="item3" style="grid-row: auto;display: flex;">
+          <h3 style="margin: auto;">Read the article about this event here, at Global Konnekt</h3>
+        </div>
+
+        <div class="item3" style="display: flex;grid-row: auto;flex-direction: column;background-color: aliceblue;padding: 10px;">
+          <h1>Indian classical musician Ranajit Sengupta to play in Abu Dhabi</h1>
+          <img src="images/invitation_Back final.jpg" style="width: 30%;" alt="">
+          <p>
+            When people were attempting to flee Syria, Ranajit Sengupta was on his way to the country.<br><br>
+            The Indian classical musician performed a special March show in Damascus, an experience that remains fresh in his mind.<span id="dots">...</span><span id="more">
+            <br>
+            "My family was very scared, but they offered me security and promised to look after me," he says. "It was a good time and I really believe music can help to spread peace and I tried to do that in my own way."<br>
+            <br>
+            Sengupta's next journey is a much safer one.<br>
+            <br>
+            Skilled in playing the sarod - a stringed instrument used for Indian classical music - he is set to perform at Abu Dhabi's Embassy of India Auditorium tomorrow with a set dedicated to classical Indian music.<br>
+            <br>
+            This will mark a change of pace for Sengupta, who has an equally prolific career as a world music artist, collaborating with musicians from Europe including Germany's Big Band Orchestra.<br>
+            <br>
+            Sengupta says he enjoys the freedom of experimenting with international groups because it showcases his instrument's dexterity.
+            <br><br>
+            During an Abu Dhabi performance last year, he had a musical duel with a German oud player.
+            <br><br>
+            "I enjoy these kind of projects because it excites me," he says. "It allows me to discover my own sound in music that is not traditional." 
+            <br><br>
+            However, it is not only the prospect of bigger crowds that has Sengupta returning periodically to traditional musical terrain.
+            <br><br>
+            Named as an "A Grade Artist" by All India Radio - an honour bestowed upon those with supreme technical skills - Sengupta views his traditional performances as much as a duty as a thrill.
+            <br><br>
+            "It is a big honour and it is my responsibility to keep my tradition going," he says. "This is why I keep travelling. I have shows in Europe and America later this year and I'm happy to perform songs from my tradition anywhere and all over the world."
+            <br><br>
+            The future of any art form depends on two factors — first we need extraordinary and dedicated musicians and secondly a large number of listeners and their patronage. With reference to the santoor, both are happening.
+            <br><br>
+            I have been teaching my disciples for the past 40 years and they are performing and teaching around the world but I would like to say extraordinary musicians are not created, they are born.
+            <br><br>
+            As a result we cannot have dozens of extraordinary musicians of any art form. It had been the case always, one or two musicians carry on the tradition and give the traditional art form a new angle. I have got many disciples but Rahul Sharma has done some path-breaking work in different genres of music on the santoor, at the same time maintaining the traditional purity of it. 
+            <br><br>
+            Has the level of appreciation and understanding of classical music changed over the years? Is there any pressure on the artiste to bend to the whims and demands of the organisers and audiences?
+            <br><br>
+            There is a change. Fifty years ago, there was a lesser number of listeners of classical music and a majority of them were in their 40s or above. Today there is a much, much bigger audience, although not as knowledgeable as in the past. But there is a large number of young listeners being added. Introduction of corporate programmes definitely has added some new pressures on the artistes.
+            <br><br>
+            Sometimes their demands may not be in conformity with the aesthetics of our music but it is up to the individual musician to interact with such people and convert them to good listeners. 
+            <br><br>
+            You have scored such wonderful music for some memorable Hindi films. When can we see you return to film music? What do you feel about the present breed of composers?
+            <br><br>
+            Thanks for your appreciation of our film music. Right from the beginning we were very clear that we would not sacrifice classical music for the sake of music direction in the films.
+            <br><br>
+            The same stands true even today but if time permits and there is a scope for our kind of music in a film, we could still be open to the idea. Film music has always been creative, keeping in mind the subject of the movie, the taste in music and poetry of the director of the film. The same is being reflected in today's films. 
+            <br><br>
+            How was your journey from Kashmir to Mumbai along with the santoor? Any memorable experiences in your career graph?
+            <br><br>
+            There had been umpteen experiences in bringing the santoor to its present form and many, many difficult situations to be faced.
+            <br><br>
+            I would like to mention one incident which could be called a turning point in my life. In 1960, I was offered a job as music producer in Radio Jammu which my father wanted me to take up as a financial security but I could never imagine myself doing a 9-to-5 job even though it was connected with music.
+            <br><br>
+            I had a tiff with my father and guru and wanted to experiment my talent as a freelance musician and left home totally unplanned and landed in Mumbai with my santoor and Rs500 (Dh40) in my pocket on June 1, 1960. Had I not taken that blind jump in the darkness of the future, I don't know what would have happened to the santoor and my life. 
+            <br><br>
+            You performed in Dubai at the Swaralaya concert in June. Do you find any perceptible difference in knowledge and appreciation between Indian and foreign audiences?
+            <br><br>
+            I came to Dubai after a few years for the Swaralaya concert. The concert was very professionally organised. I liked the ambience on the stage and particularly the audience that evening who were real lovers of our music.
+            <br><br>
+            As far as the listeners in India or other countries are concerned, now I don't find any difference whether I am playing in Mumbai or Melbourne, or in Delhi or Dubai — the reaction is the same because the world has been exposed to Indian classical music for more than half a century. 
+            <br><br>
+        </span>
+
+        </div>
+
+        <div class="item3" style="grid-row: auto;">
+          <button onclick="myFunction()" id="myBtn" style="background-color: rgba(223, 104, 35);border: none;  color: white;padding: 15px 32px;text-align: center;text-decoration: none;">Read more</button>
+        </div>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more"; 
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less"; 
+              moreText.style.display = "inline";
+            }
+          }
+          </script>
+
+        <div class="item3" style="grid-row: auto;display: flex;padding: 20px 0 20px 0;flex-direction: column;">
+          <h2 style="text-align: center;">Glimpses from the event</h2>
+          <video preload="metadata" muted style="margin: auto;width: 40%;" controls>
+              <source src="videos/MVI_0241.MOV.mp4" type="video/mp4">
+          </video>
+        </div>
+
+      </div>
+      <br><br><br>
+      <footer style="background-color: honeydew;padding-top: 5px;">
+        <hr size="1" width="99%" color="black">
+        <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+      </footer>  
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    
+    <title>The Walk Towards Perfection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+    
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+    img:hover{
+      opacity: 0.8;
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+    #more {display: none;}
+
+    button:hover{
+      opacity: 0.5;
+    }
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    
+    <div class="grid-container">
+      <div class="item1">
+            <div class="toppane w3-animate-top" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+      </div>
+        <br><br>
+
+        <div class="item2">
+          <div class="container2 w3-animate-left" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3" style="display: flex;flex-direction: column;background-color: aliceblue;padding: 10px;margin-top: 20px;">
+          <h1>The walk towards perfection</h1>
+          <p>
+            <strong> July 19, 2003 00:00</strong><br>
+            The catwalk is not a cakewalk - this is whatmany youngsters from Dubai found out, as they were put through their paces by well-known Indian model Nayonika Chatterjee and choreographer and model-trainer Prasad Bidapa.
+            <br>
+            The young men and women also learnt other aspects of modelling, grooming and personality development at Finesse 2003, a unique workshop organised by Apex Media at the Crowne Plaza, Dubai from July 6 to July 17.<br>
+            <br>
+            "Dubai has become a hotspot for fashion with designers from all over the world showing their collections here. Many Dubai-based youngsters are attracted to the glamorous profession of modelling, but there is no place in Dubai where they can get professional training. Finesse is our attempt to fill this vacuum," said Jyoti Easwaran, project manager, Apex Media.<br><span id="dots">...</span><span id="more">
+            <br>
+            "We called in professionals from various fields to provide a well-rounded training programme designed to give the participants confidence, grace, poise and finesse."<br>
+            <br>
+            Watching a training session was an interesting experience. As the boys and girls walked on the ramp, Nayonika and Prasad watched their every move.<br>
+            <br>
+            "Feel the music, turn gracefully, do not drop your hands like you are carrying a bunch of bananas, hold your chin up, watch your expression, boys keep your jaws clenched" came the steady stream of instructions as the youngsters struggled to maintain their balance and remember their moves.<br>
+            <br>
+            Later during a photo session withwell-known fashion photographer Tejal Patni, the participants found out that getting a portfolio done is equally gruelling work. "We had fun, but we have realised that modelling is a lot of hard work," said 20-year-old Mansi Mallya. Arash Engineer, a 15-year-old schoolboy, had joined the workshop because he was bored during the vacations.<br>
+            <br>
+            "I have had a chance to meet famous people like Nayonika and have made many new friends. The workshop has helped me to get over my shyness and to improve my public speaking skills," he said.<br>
+            <br>
+            "The skills we have learnt here will help us to be confident in everything that we do in future," added Deepti Pillai, a college student.<br>
+            <br>
+            <strong>Nayonika Chatterjee Singh</strong> <br>
+            <br>
+            She studied ceramics at the National Institute of Design, India and did her first modelling assignment in 1988. Nayonika Chatterjee Singh has recently had her first baby, but is still one of the most sought after models in India. Nayonika has been head of B4U's Fashion TV channel in India and has also worked with Channel V. She has also been involved in the training of the Miss India beauty pageant contestants. This is what she had to say about the right attitude and attributes of a successful model:<br>
+            <br>
+            Modelling is not just about having a pretty face or a good body. It is also about attitude and hard work. It is important to take the job seriously. You must be focussed and look after yourself. To last long in this profession it is essential to change your style with the times and to keep reinventing yourself. I always make an extra effort by studying the clothes and changing my walk and bearing to show off the garments in the best possible way.
+            <br><br>
+            There is a flip side to every profession. Modelling is neither as much fun nor as bad as the public perception of it. It has been a great career for me. I have travelled to many places, learnt many new things and met many interesting people through my work. Modelling also opened the doors for other interesting careers and it has transformed me from an extremely shy person to a confident woman.
+            <br><br>
+            With proper guidance, a gawky teenager can be transformed into a graceful swan. Ramp walking, controlling your body language, being relaxed in front of the camera, knowing your good angles, posture, grooming, make-up and being able to communicate well are the various aspects that I emphasise in my training courses. I do not believe in creating clones. I help the participants to enhance their strengths and develop their own individual style. It is satisfying to know that some of the Dubai contestants I trained last year have gone on to win beauty pageants.
+            <br><br>
+            <strong>Prasad Bidapa</strong><br><br>
+            He studied graphic design at the National Institute of Design, India and is an accomplished ballet and Bharatanatyam dancer. Prasad Bidapa has been a part of the Indian fashion world since its nascent years. He began choreographing fashion shows 25 years ago as a hobby and is one of India's foremost event organisers today. Prasad Bidapa Associates, his event management and training company holds auditions three times a year and the selected candidates are groomed into successful models. Prasad is known for his ability to spot talent and has many outstanding finds such as Nafisa Joseph and Diya Abraham to his credit. Here's what he had to say about the profession:
+            <br><br>
+            Everyone can be a model. Some people are suited for print advertisements, others for the ramp or films. What I look for is the drive and the hunger to succeed. I insist that everyone I select for grooming must finish college, because a good education gives you the necessary background to deal with various situations sensibly and confidently. Our one-year intensive training teaches aspiring models skin, hair and body care, diet and exercise regimes, ramp walking, poise and other skills, but I emphasise right attitude, which is the most important element.
+            <br><br>
+            I believe the best way to learn is by actually being on the ramp; so I try to put my students in as many shows and shoots as possible and encourage them to take part in pageants. I tell them that they are part of a fantasy world and something that other women aspire to be; so they must have style and a sense of drama. And they must develop an individual look. I can see a lot of potential in Dubai, but I wish more Arabs would come into the field, because they are really good looking.
+            <br><br>
+            <strong>The workshop</strong>
+            <br><br>
+                • Organisers: Apex Media
+                <br>
+                • For: Men and women aged 14 to 30
+                <br>
+                • Curriculum and instructors: Catwalk, Poise, Attitude, Diction; Nayonika Chatterjee Singh and Prasad Bidapa
+                <br>
+                • Nutrition: Lovely Ranganath from Welcare Hospital
+                <br>
+                • Skin care and Make-up: Clinique
+                <br>
+                • Portfolios: Tejal Patni
+                <br>
+                • Hair care: Mirage Salon
+                <br>
+                • Salsa Dancing: Tami Fowlie
+                <br>
+                • Dental Care: New York Dental Clinic
+        </span>
+
+        </div>
+
+        <div class="item3" style="grid-row: auto;">
+          <button onclick="myFunction()" id="myBtn" style="background-color: rgba(223, 104, 35);border: none;  color: white;padding: 15px 32px;text-align: center;text-decoration: none;">Read more</button>
+        </div>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more"; 
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less"; 
+              moreText.style.display = "inline";
+            }
+          }
+          </script>
+          
+
+      </div>
+      
+      <br><br><br>
+      <footer style="background-color: honeydew;padding-top: 5px;">
+        <hr size="1" width="99%" color="black">
+        <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+      </footer>
+
+</body>
+</html>

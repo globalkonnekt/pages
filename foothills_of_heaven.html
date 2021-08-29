@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    
+    <title>Foothills of Heaven</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+    
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+    img:hover{
+      opacity: 0.8;
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+    #more {display: none;}
+
+    button:hover{
+      opacity: 0.5;
+    }
+
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    
+    <div class="grid-container">
+      <div class="item1">
+            <div class="toppane w3-animate-top" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+      </div>
+        <br><br>
+
+        <div class="item2">
+          <div class="container2 w3-animate-left" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3" style="display: flex;padding-top: 20px;flex-direction: column;">
+          <h1 style="margin: auto;">Foothills of Heaven</h1>
+          <br>
+          <img style="width: 50%;margin: auto;" src="images/foothillsofheaven.jpg" alt="">
+        </div>
+
+        <div class="item3" style="grid-row: auto;display: flex;">
+          <h3 style="margin: auto;">Read the article about this event here, at Global Konnekt</h3>
+        </div>
+
+        <div class="item3" style="display: flex;grid-row: auto;flex-direction: column;background-color: aliceblue;padding: 10px;">
+          <h1>Jyoti Easwaran visits Ananda In The Himalayas, the award-winning destination spa, in her search for the best holistic approach to wellness.</h1>
+          <p>
+            <strong>March 12th, 2010</strong><br>
+            Travel manifests itself in many forms — business, pleasure, religious, adventure and routine. For me, travel has been an integral part of my learning and experiences. As a healthcare professional, I continuously explore products, destinations and solutions, therapists and systems that try to infuse an holistic approach to life. That quest was answered in my visit to Ananda In The Himalayas. As part of a healthcare project, I discovered that it had been voted The Best Destination Spa in the World. My curiosity to experience the best in this category, got the better of me and I began preparing for the journey. Travelling to the foothills of the Himalayas seemed quite a distance — but my desire to experience the grandeur of the mountains, valleys and spectacular flora and fauna of the region set my concern aside.<span id="dots">...</span><span id="more">
+            <br>
+            After an Air Arabia Flight from Sharjah to Delhi, I checked into the Tata Ginger hotel for a night; a clean, crisp room with basic amenities and a value-for-money price tag justified its popularity. The morning Shatabdi Express to Haridwar with its enjoyable Indian four-course breakfast set the mood rolling to experience Ananda. The train wound through Meerut, Saharanpur, Dehradoon, and by noon reached the historic Haridwar station — where the reception staff of Ananda were waiting for me.<br>
+            <br>
+            During the car ride through the picturesque Garhwal region, every important detail of the route was explained by the driver for whom explaining Ananda and its environs were clearly a passion!<br>
+            <br>
+            Ananda In The Himalayas, the luxury destination spa resort, that I soon sighted, is a retreat dedicated to restoring balance and harmonising energy through an holistic approach — incorporating the healing principles of the east and west with a specific focus on Ayurveda and harmony. Set amid 100 acres of virgin forest, Ananda features a restored Viceroy’s Palace, a world-class spa, 75 deluxe rooms and suites and three villas. The spa architecture is a confluence of Moorish and Italian renaissance style and the regal palace is an obvious reminder of the colonial era. It is frequented by the likes of Uma Thurman, Brad Pitt, the Bachchan family, Aamir Khan, and many celebrities and industrialists from across the globe.<br>
+            <br>
+            <br>
+            “We ensure that right from morning until late evening and dinner, your time is well spent therapeutically,” said Dr Jitendra Varshney, the resident Ayurvedic physician at the resort. My prescribed diet was tongue tickling prepared with some very exotic ingredients. My casual mention of a very healthy recipe of bitter gourd with the chef at Ananda got noticed and the next day it was included for me as a special treat. <br>
+            <br>
+            The spa consultation was a journey through the body form, five elements of nature and a personalised therapy and activity programme which took me to the world of jacuzzi, steam and sauna, and extremely rejuvenating signature massages. My therapists transported me to the traditional Kerala mood; ambience, refreshing oils and powders worked their way to lend a glow and tingle to my skin.<br>
+            <br>
+            I could spot Chinese, Bahrainis, Omanis, Europeans, Russians and Indians amongst the guests at the resort. A favourite with the Russians, Ananda occasionally becomes a second home to Russian billionaires who stay at the resort for more than a month with their security and support staff.<br>
+            <br>
+            “We have a very dedicated guest list from the Middle East — and the UAE accounts for half of the clientele from the Gulf region,” remarked Anupam Dasgupta, the affable general manager, who joined me for a lunch on a very pleasant afternoon. His personal interaction with each and every guest at the resort lends that special touch to the guests.<br>
+            <br>
+            My treatment of abhyanga and a dose of Vedanta coupled with yoga classes in the amphitheatre amidst dancing peacocks and friendly monkeys was a treat. River rafting on the Ganges, wildlife safaris at Rajaji National park, exotic concoctions with sprouts and grilled veggies, tomato juice with celery, an array of fresh organic fruits — all these seriously did wonders to my mood and health. I also had the opportunity to watch live cooking of Ayurvedic cuisine.
+            <br><br>
+            I spotted a leopard outside the gates as we returned to Delhi to board the flight, and was expecting to see elephants crossing the road near the Rajaji Sanctuary. But, that possibly warrants another visit.
+            <br><br>
+            <img src="images/anandaspa1.jpg" style="width: 30%;" alt="">
+            <br>
+            <strong>How different is a destination spa than other spas?</strong>
+            <br><br>
+            A destination spa, as the name suggests, is the real reason and purpose behind the guest visit. The whole emphasis is on the holistic spa experience in every area — the cuisine, the ambience, the activity programmes offered and, of course the spa therapies and packages. In contrast to resort spas or hotel spas, where the focus of the property will be on other areas and the spa is a secondary outlet or facility, a destination spa will have its whole concept based around the spa experience and wellness in general. As a result the guests that frequent destination spas tend to be very much in tune with this concept.
+            <br><br>
+            <strong>How did Ananda evolve into such an award winning resort?</strong>
+            <br><br>
+            Ananda is a dream child of the owners/promoters, and is a confluence of spiritual energies. The reason why it is a success today is because it is not treated as a mere business. It is more a passion with them and those are the values that have percolated into every part of Ananda and its enthusiastic team.
+            <br><br>
+            Ananda is not just about ‘treatments’. Ananda trains its staff all year around; for the spa training, it brings in internationally renowned trainers. We also develop our own trainers to enhance every aspect of the spa experience. The focus is on personalised service and providing guests those little special moments that make their stay memorable and, most of all, introducing guests to programmes which truly can lead to positive lifestyle changes.
+            <br><br>
+            We offer a lifestyle that patrons can take back with them.
+            <br><br>
+            Coming to Ananda In The Himalayas can be termed as a life-changing experience.
+            <br><br>
+            <strong>What is the USP of the resort?</strong>
+            <br><br>
+            It is very difficult to answer that as it is a confluence of many things… the unique location in the foothills of the Himalayas near the holy town of Rishikesh, the Ayurvedic treatments, the specialised dosha-specific Ayurvedic cuisine, yoga, Vedanta, use of indigenous products in our international range of treatments all specifically designed for Ananda… Ananda is benchmarked against the best in the world and hence it has been consecutively rated among the top 3 destination spas globally for the last 5 years.
+            <br><br>
+            <strong>How has the reaction of your guests been?</strong>
+            <br><br>
+            Ananda has managed to delight its guests, with such a large proportion returning to us it really enables us to further personalise their future visits. We have a very strong following of longer-term multiple repeat guests who really feel part of the Ananda family.
+            <br><br>
+            <strong>What is the type of clientele that frequents Ananda?</strong>
+            <br><br>
+            A wide range of nationalities and socio-economic groups, ranging from the very affluent to those looking to experience Indian culture. We have guests from Russia, the US, the UK, Germany, France, and the Middle East to name the broader categories.
+            <br><br>
+            <strong>Do Middle Eastern guests frequent Ananda?</strong>
+            Yes, we are close to Dubai… a four-hour flight arrives in Delhi and provides a very easy journey from the Middle East. 
+            <br><br>
+            <br>
+            <strong>Ananda, the fact file</strong>
+            <br><br>
+            <strong>Accessibility</strong>
+            <br><br>
+            <strong>Air</strong>: Flight from Delhi to Dehradoon
+
+            <strong>Helicopter</strong> : Chartered flights from Delhi and a private Helipad at Ananda
+
+            <strong>Train</strong> : Delhi to Haridwar Shatabdi express
+
+            <strong>Road</strong> : 6 hours drive from Delhi
+            <br><br>
+            Ananda Spa facts
+            <br><br>
+            <strong>Area</strong> : 24000 sq feet area
+            <br><br>
+            <strong>Room details</strong> : 24 treatment rooms, 2 relaxation rooms,
+            <br><br>
+            <strong>Spa Boutique</strong> : Showcases a fine collection of silk, music books, skincare, cosmetics and art objects. A wide variety of herbal teas and organic food are available
+            <br><br>
+            <strong>Rates and Packages</strong>                               
+            <br><br>
+            <strong>Rooms</strong> : Range from 445 USD for a single night to 1720 USD for a luxury 2 bedroom villa with private pool
+            <br><br>
+            <strong>Wellness Packages</strong> : Start at 2790 USD rising to around 9000 USD for periods ranging from 5 nights to 14 nights
+          </span>
+
+        </div>
+
+        <div class="item3" style="grid-row: auto;">
+          <button onclick="myFunction()" id="myBtn" style="background-color: rgba(223, 104, 35);border: none;  color: white;padding: 15px 32px;text-align: center;text-decoration: none;">Read more</button>
+        </div>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more"; 
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less"; 
+              moreText.style.display = "inline";
+            }
+          }
+          </script>
+      </div>
+      <br><br><br>
+      <footer style="background-color: honeydew;padding-top: 5px;">
+        <hr size="1" width="99%" color="black">
+        <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+      </footer>  
+</body>
+</html>

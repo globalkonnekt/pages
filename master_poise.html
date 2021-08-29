@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    
+    <title>Mrinalini Sarabhai</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+    
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+
+    #more {display: none;}
+
+    button:hover{
+      opacity: 0.5;
+    }
+
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <div class="grid-container">
+      <div class="item1">
+            <div class="toppane w3-animate-top" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+      </div>
+        <br><br>
+
+        <div class="item2">
+          <div class="container2 w3-animate-left" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3" style="display: flex;padding-top: 20px;flex-direction: column;">
+          <h1 style="margin: auto;">Her master poise</h1>
+          <br>
+          <img style="width: 48%;margin: auto;" src="images/life-2009.jpg" alt="">
+          <h3 style="text-align: center;">LIVING LEGEND: Mrinalini Sarabhai poses at The Academy of Performing Arts Darpana in Ahmedabad; (right) Sarabhai and her daughter Mallika pose with the ‘Bharat Asmita Jana Shreshtha 2011’ award — AFP</h3>
+          <h3 style="margin: auto;">Read the article on <a href="https://www.khaleejtimes.com/nation/general/her-master-poise" target="_blank" style="color: black;">khaleejtimes</a> or here, at <a href="#article" style="color: black;">Global Konnekt</a></h3>
+        </div>
+
+        <div class="item3 w3-animate-right" style="grid-row: auto;display: flex;padding-bottom: 10px;">
+          <hr width="99%" color="black" size="2">
+        </div>
+
+        <div class="item3" style="display: flex;grid-row: auto;flex-direction: column;background-color: aliceblue;padding: 10px;" id="article">
+          <h1>Her master poise</h1>
+          <p>
+            <strong>September 21, 2012</strong><br>
+            Celebrated Indian classical dancer and choreographer Mrinalini Sarabhai, still going strong in her tenth decade, silently and singlehandedly led a cultural revolution that led to the renaissance of dance in India and thousands of students learning at her performing arts school, Darpana
+            <span id="dots">...</span><span id="more">
+                Mrinalini Sarabhai needs no introduction. One of India’s most famous danseuses, Padma Bhushan winner, wife of Dr Vikram Sarabhai — father of the Indian space programme — mother of Mallika Sarabhai, also a renowned dancer and actress, and founder of Darpana Academy of Performing Arts, Sarabhai is indeed a living legend.
+                <br><br>
+                One of the earliest dancers from India to go global, she created a stir in Paris in 1949, dancing with élan to the tunes of Indian percussion instruments at the Theatre National de Chaillot. An oversight saw her wearing earrings only in one ear, which went on to become a fashion statement among Parisian women! A student of the famous Shantiniketan school, Sarabhai was highly influenced by its founder and her teacher, the polymath and Nobel Laureate Rabindranath Tagore.
+                <br><br>
+                Today, at over 90 years of age, Sarabhai is the epitome of grace, having aged beautifully, seen draped in chic Kanjeevaram sarees. She is known to be extremely erudite and commands the audience’s attention and respect effortlessly during her appearances.
+                <br><br>
+                Darpana is one of Sarabhai’s greatest achievements, a stupendous success and a lasting legacy to lovers of all art forms. Located in Ahmedabad, Gujarat, it unfolds a great story of culture and art marrying into one of the most powerful business families of India, the Sarabhais. In her productions at the school, Sarabhai ensured they upheld the highest standards in technical excellence, content, presentation and style.
+                <br><br>
+                Dance became a way of life for the lady at a time when no one had taken that step before. Her Gujarati background back in the 1940s was famously conservative and opposed to the idea of following dance as a profession. Yet, she chose Bharatnatyam, a traditionally South Indian dance form, to excel in and dance her way into hearts around the world.
+                <br><br>
+                At Darpana too, she opted to entrench instruction and excellence in the same form, and it soon became a status symbol for Indians to say their daughters were “learning Bharatanatyam in Darpana under Mrinalinibehn.” A degree in dance soon graduated to a favoured asset in a student’s marital prospects.
+                <br><br>
+                Called India’s high priestess of dance, Sarabhai is a pioneer in creating fresh styles, and has given new concepts to traditional dance forms with fresh perspectives and new mysteries. Her extraordinary ability to fuse new ideas with traditional forms is her greatest contribution to the world of dance. Her expertise doesn’t end there. Sarabhai is a director and author of scholarly works, novels and children’s books. She was also the chairperson of Gujarat State Handicrafts and Handloom Development Corporation for many years, inculcating her own taste and vision into reviving artisans’ ancient designs, techniques and village crafts.
+                <br><br>
+                Addressed fondly as “amma” by her students, she believed dance should not be the prerogative of the rich and privileged, and slowly did away with the ostentatious display of wealth and power at arangetrams — the students’ debut on-stage performances — and started group arangetrams with reduced costs.
+                <br><br>
+                Chidambaram, her home was always thrown open to eminent artists, thinkers, politicians, industrialists, civil servants and visiting students from around the world — a veritable salon where everyone enriched themselves through interactions.
+                <br><br>
+                Senior citizens of Ahmedabad still recall how an unassuming young man would silently attend her programmes in the 1950s, quietly enjoying concerts without attracting attention to himself. He was her celebrated husband, Dr Vikram Sarabhai, famous in his own right, but who encouraged her dance and helped establish Darpana.
+                <br><br>
+                Sarabhai is one woman who withstood widespread opposition and created the opportunity for dance as a vocation in Gujarat and India. A life so enriched, which has far exceeded her own expectations and aspirations, she was recently facilitated at Darpana, by her very first student — today a 68-year-old woman!
+                <br><br>
+                n an exclusive interivew, Mrinalini Sarabhai lays open her opinons on various topics, essaying her thoughts to perfection with intensity and an impeccable command of English.
+                <br><br>
+                <strong>On her journey as a dancer, and establishing Bharatanatyam in Gujarat</strong>
+                <br><br>
+                There were hardships in the beginning; dancing was not socially accepted, and girls from “good families” certainly did not dance! But in time, with my own performances, more students started learning dance. It is now an accepted and prestigious art form.
+                <br><br>
+                Today, Darpana has over 20,000 students!
+                <br><br>
+                <strong>On her most fulfilling moment as a dancer</strong>
+                <br><br>
+                I think dancing in Paris was a great challenge. Fortunately, I was fully accepted after my very first performance.
+                <br><br>
+                Just a week before, an Indian dancer had received deplorable reviews from dance critics. The morning after my show, newspapers carried the headline “Mrinalini conquered Paris.”
+                <br><br>
+                <strong>On her peers and today’s contemporary dancers</strong>
+                <br><br>
+                I admire Rukminidevi for her efforts in reviving Bharatanatyam. I studied in her school Kalakshetra. Today, many new and promising dancers follow the dance tradition in purity.
+                <br><br>
+                On Dr Sarabhai, and her daughter Mallika carrying the spirit of Darpana
+                <br><br>
+                My husband was the one who suggested starting a dance academy in Ahmedabad. I always had his full supoort and he helped with lighting and stage set-up for my shows. My daughter Mallika and her children are continuing the tradition and pursuing new paths in their dance vocabulary.
+                <br><br>
+                <strong>On the progress of dance in the cultural arena</strong>
+                <br><br>
+                I think it’s happening. More and more people are taking up dance seriously, and trying to understand its underlying message. I have choreographed several pieces on social change; Mallika has continued the tradition of motivating people through her work. The new generation should be sensitive about society’s problems, and portray them through their art.
+                <br><br>
+                <strong>On keeping fit, agile and involved</strong>
+                <br><br>
+                I do this with constant exercise of the mind and body, and also by being totally engaged in my school Darpana, and constantly working with young people.
+                <br><br>
+                I have mainted a regular routine of work and leisure. Also, I am not very fond of eating, since childhood, and have always had to force myself to eat well. I think one should always leave the table a little hungry, which means, you don’t overeat.
+                <br><br>
+                <strong>On motivation</strong>
+                <br><br>
+                Nobody motivated me. When I was four years old, I told my mother that I was going to be a dancer. I found my gurus on my own and started learning.
+            </span>
+            </p>
+        </div>
+
+        <div class="item3" style="grid-row: auto;">
+          <button onclick="myFunction()" id="myBtn" style="background-color: rgba(223, 104, 35);border: none;  color: white;padding: 15px 32px;text-align: center;text-decoration: none;">Read more</button>
+        </div>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more"; 
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less"; 
+              moreText.style.display = "inline";
+            }
+          }
+          </script>
+
+      </div>
+      <br><br><br>
+      <footer style="background-color: honeydew;padding-top: 5px;">
+        <hr size="1" width="99%" color="black">
+        <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+      </footer>  
+</body>
+</html>
