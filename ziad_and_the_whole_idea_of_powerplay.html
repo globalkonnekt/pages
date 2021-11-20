@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    
+    <title>Ziad and the Whole Idea of Powerplay</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+    
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+
+    #more {display: none;}
+
+    button:hover{
+      opacity: 0.5;
+    }
+
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <div class="grid-container">
+      <div class="item1">
+            <div class="toppane w3-animate-top" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+      </div>
+        <br><br>
+
+        <div class="item2">
+          <div class="container2 w3-animate-left" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3" style="display: flex;flex-direction: column;">
+          <h1 style="text-align: center;">ZIAD AND THE WHOLE IDEA OF POWER PLAY</h1>
+          <h3 style="text-align: center;">Read the article about this event on <a href="https://www.khaleejtimes.com/city-times/ziad-and-the-whole-idea-of-power-play" target="_blank" style="color: black;">khaleejtimes</a> or here, at <a href="#article" style="color: black;">Global Konnekt</a></h3>
+        </div>
+
+        <div class="item3" style="display: flex;grid-row: auto;flex-direction: column;background-color: aliceblue;padding: 10px;" id="article">
+          <h1>ZIAD AND THE WHOLE IDEA OF POWER PLAY</h1>
+          <p>
+            <strong>Jyoti Easwaran</strong><br>
+            <cite>Filed on Sun 2 Jan 2005, 2:49 AM</cite><br><br>
+            Life is a big gamble and not many persons are ready to gamble with their dreams without the backing of a well-wisher! How many times have each one of us aspired to break through the monotony of a daily existence and forge out a more popular identity for ourselves? Not unnatural of course!
+            <span id="dots">...</span><span id="more">
+                <br><br>
+                Capitalising on this aspect of aspiration and dreams is a young and charming media personality, Ziad Batal, the executive producer of Media Group who has launched the ambitious project of the 12-part one-hour show CEO that is going to be telecast of Infinity TV.
+                <br><br>
+                He disputes the idea that the concept for the show is a direct lift from Donald Trumps' The Apprentice? "This show is absolutely different from The Apprentice. Here no one is fired and each one leaves with a great sense of satisfaction of being a part of the entire exercise. We are helping people to nurture their dreams through this show."
+                <br><br>
+                How does the entire concept evolve and how rigorous is the screening process? "The show is a reality-based show that searches the PAN Arab region for potential CEOs — self-driven individuals that compete to have their ideas bankrolled. We are looking for people with original ideas, determination and guts. The search will be conducted in all major Arab cities. Out of the application received, thirty contestants will be selected and evaluated. This number will then be thinned down to about ten who will then be invited for the finals in Dubai. The team of five women and five men respectively be followed by a camera crew for an entire period of two months. The telecast will also give the viewers to judge the participants on various parameters.
+                <br><br>
+                Ziad also acknowledges the massive support of Mishal Kanoo and other entrepreneurs for the show as it surely needs an entrepreneur to judge one in the making! "The show would be a great hit with both the sexes as it is a power play, and that is a great recipe for attraction and success! We have tried to keep the format very simple and all that one needs to exhibit is the belief in oneself! CEO is all about an ultimate lifestyle! It is all about branding and promoting the talents of the young Arab achievers."
+                <br><br>
+                Did you always want to be in the media and glamour business? "As a university student I was quite passionate about film making. My stint in the USA was a great learning experience in itself and meeting many well known film stars in the cafeterias and interacting with taught me a lot. One eye-opener was that fact that Hollywood places a lot of emphasis on creatives and I believe in creativity being integral to a show's success. With film festivals across the world promoting talent, showbiz is all set to scale greater heights. Bollywood has already made its presence felt internationally and I am sure Arabic films in the years to come by will truly go international. For our CEO show the teams from US and Dubai are working together and Malek Akkad a respectable figure in the Arab entertainment industry is going to be a part of the show as well."
+                <br><br>
+                Ziad Batal has tried his hands at catering also and successfully sold his profitable food business in Canada before venturing to newer pastures.People interest him and the business of showbiz is all about people. He is candid to admit his failures as well."Without failures one does not succeed". Life has taught some tough lessons and Ziad plans to use them a learning board and make the CEO a show worth watching and emulating in real life.
+            </span>
+            </p>
+        </div>
+
+        <div class="item3" style="grid-row: auto;">
+          <button onclick="myFunction()" id="myBtn" style="background-color: rgba(223, 104, 35);border: none;  color: white;padding: 15px 32px;text-align: center;text-decoration: none;">Read more</button>
+        </div>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more"; 
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less"; 
+              moreText.style.display = "inline";
+            }
+          }
+          </script>
+
+      </div>
+      <br><br><br>
+      <footer style="background-color: honeydew;padding-top: 5px;">
+        <hr size="1" width="99%" color="black">
+        <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+      </footer>  
+</body>
+</html>

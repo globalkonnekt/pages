@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    
+    <title>A Recent Visit to Thailand</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+    
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+    img:hover{
+      opacity: 0.8;
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+    #more {display: none;}
+
+    button:hover{
+      opacity: 0.5;
+    }
+
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    
+    <div class="grid-container">
+      <div class="item1">
+            <div class="toppane w3-animate-top" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+      </div>
+        <br><br>
+
+        <div class="item2">
+          <div class="container2 w3-animate-left" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3" style="grid-row: auto;display: flex;">
+            <h3 style="margin: auto;">Read this article on Global Konnekt</a></h3>
+        </div>
+
+        <div class="item3" style="display: flex;grid-row: auto;flex-direction: column;background-color: aliceblue;padding: 10px;" id="article">
+          <h1>A recent visit to Thailand</h1>
+          <p>
+            <strong>19 November 2010</strong><br>
+            Two exotic Thai spa destinations that offer you holistic rejuvenation
+            <span id="dots">...</span><span id="more">
+                A recent visit to Thailand — the land of smiles — offered me the chance to experience two exotic spa destinations: Rayawadee in Krabi and Chiva Som on Hua Hin Beach.
+                <br><br>
+                On the speedboat drive to Rayavadee Krabi, you get to see stunning Phranang Peninsula blending lush foliage, limestone cliffs, beaches and the emerald waters of the Andaman Sea. At the resort itself, the two-storey pavilions and beachfront villas are dotted with tropical gardens and coconut groves, recreating the charm of an idyllic southern Thai village (very similar to a clean Kerala village!).
+                <br><br>            
+                Brian Harris, the chief operating officer of Rayavadee, reiterated the resort’s philosophy of offering maximum joy, the unlimited opportunities for relaxing and an ambience to just laze around. “Our resort is also very popular for weddings and engagements. Where else can you have a million-year-old grotto for a setting for an unforgettable moment of your life?”
+                <br><br>    
+                I tried the signature Rayawadee treatment — the application of warm aromatic oil and heated Thai herbal heat compresses on the body. It felt divine, and I could actually feel the accumulated tension easing out from my body.
+                <br><br>    
+                Rayawadee Krabi has a very unique sesame body polish which uses crushed sesame seeds and sesame oil to exfoliate the skin which can be followed by a body wrap with a mixture of carrots, soya bean and coconut milk which is so very Thai in content, and method of application.
+                <br><br>    
+                My next destination Chiva Som is sought after for its rejuvenation and correction-of-principles-of-life therapies.
+                <br><br>    
+                Chiva Som — or the Haven of Life — is housed on the Hua Hin Beach, 185 kms south of Bangkok. The combination of Thai architecture, tropical gardens, lakes, waterfalls and 587 Western-style rooms give the retreat an aura of exclusivity alongwith compelling simplicity and sophistication of detail. It boasts of a world-renowned spa cuisine, a blend of Oriental Thai and Western delicacies, low-fat menus and stunning desserts. I had mentally prepared myself for a regimented diet and lifestyle; the first eye-opener was that the lovely Thai style cottage where I was housed had no coffee and tea but only hot water and tea infusions along with lemon all which aid in cleansing one’s system.
+                <br><br>    
+                My typical day would consist of morning yoga, breakfast, gym schedule and a signature massage treatment along with facial, skin, hair consultation with world class experts trained in the latest of therapies and procedures.
+                <br><br>    
+                Sharon Menzies, the business development director of the resort, pointed out that “despite recession, the effect on Chiva Som has been marginal as people would still give a thumbs up to health. Visitors from Russia, the Middle East, Europe, Asia all form our clientele and the best part is that we have many repeat customers.”
+                <br><br>    
+                I could spot a popular Bollywood actress, a Lebanese businessman who comes every year to Chiva Som, and a Hong Kong media personality who is a lifetime member at the resort. There were Russian oligarchs, and an Indian Thai citizen enjoying her pre-marital pampering at the spa. The floatation room at the Chiva Som spa is a novel method to relax; it literally numbs you and takes you on to another world of absolute peace in the mind and lightness in the body due to the use of Dead Sea salts!
+                <br><br>    
+                For Middle Eastern travelers, the very popular Eternal Youth Retreat is highly recommended: it combines holistic therapies with treatments at Chiva Som’s Niranlada Medispa. Packages are between 5 to 14 days long, and include accommodation with all meals, massages, ultra peel microdermaabrasion for the skin, anti cellulite treatment, body shaping treatments and skin refinement.
+              </span>
+        </div>
+
+        <div class="item3" style="grid-row: auto;">
+            <button onclick="myFunction()" id="myBtn" style="background-color: rgba(223, 104, 35);border: none;  color: white;padding: 15px 32px;text-align: center;text-decoration: none;">Read more</button>
+        </div>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more"; 
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less"; 
+              moreText.style.display = "inline";
+            }
+          }
+          </script>
+      </div>
+      <br><br><br>
+      <footer style="background-color: honeydew;padding-top: 5px;">
+        <hr size="1" width="99%" color="black">
+        <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+      </footer>
+</body>
+</html>

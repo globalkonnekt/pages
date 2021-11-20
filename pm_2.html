@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    
+    <title>Global Konnekt- Press & Media</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">    
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+    img:hover{
+      opacity: 0.8;
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+      .mainimg{
+      width: 400px;
+      height: 300px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+          .mainimg {
+            width: 300px;
+            height: 200px;
+          }
+    }
+    
+    .mainimg2{
+      width: 300px;
+      height: 300px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+      .mainimg2 {
+            width: 200px;
+            height: 200px;
+          }
+        }
+
+    .mainimg3{
+      width: 250px;
+      height: 300px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+          .mainimg3 {
+            width: 150px;
+            height: 200px;
+          }
+        }
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <div class="grid-container">
+        <div class="item1 w3-animate-top">
+            <div class="toppane" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="item2 w3-animate-left">
+          <div class="container2" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a style="color: green;" href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3 w3-animate-right" style="padding-top: 20px;">
+          <div style="display: flex;background-color: bisque;padding: 10px;">
+            <div>
+              <h2 style="padding-left:20px;">'MUSIC IS MY PASSION AND BUSINESS'</h2>
+              <p style="padding-left:20px;"><strong>Persons are driven by certain levels of passion and for some that becomes a form of obsession.</strong><br><br>
+                If you thought that lawyers are stiff, and made of only words that move courtrooms then the perception would change if you sit to have a nice cup of coffee with Mark Hill who runs a boutique law firm, therightslawyers, in Dubai which represents some of the finest names in the corporate and entertainment world. He spoke at a seminar organised during the exhibition on Franchising in the Middle East and City Times posed him a few quick questions.
+                <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="music_is_my_passion.html"><strong>Read More</strong></a></p></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="item3 w3-animate-right" style="padding-top: 0px;grid-row: auto;">
+            <div style="display: flex;background-color: bisque;padding: 10px;">
+              <div>
+                <h2 style="padding-left:20px;">GETTING IT RIGHT NATURALLY</h2>
+                <p style="padding-left:20px;"><strong>An interesting story is associated with the world's first anti hypertensive drug. The founder of the company saw wild elephants being tamed with the roots of a particular tree.</strong><br><br>
+                    The association that began in 1930, still continues with the distinction of the company becoming the first multinational herbal healthcare company in the world with a presence in over 55 countries and a world market size of over US $70 billion. Himalaya Herbal Healthcare ME, started its operations in the region nearly four years ago, but since its inception, the company has been an aggressive player in the fast-moving consumer herbal health goods market.
+                  <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="getting_it_right_naturally.html"><strong>Read More</strong></a></p></span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item3 w3-animate-right" style="padding-top: 0px;grid-row: auto;">
+            <div style="display: flex;background-color: bisque;padding: 10px;">
+              <div>
+                <h2 style="padding-left:20px;">FOR THE DOCTOR AND THE PATIENT ALIKE</h2>
+                <p style="padding-left:20px;"><strong>Medical innovations and scientific breakthroughs have always heralded the onset of a safer and peaceful patient-care to the suffering.</strong><br><br>
+                  Medical innovations and scientific breakthroughs have always heralded the onset of a safer and peaceful patient-care to the suffering. Companies across the globe are searching for newer modes of decreasing patient suffering...
+                  <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="for_the_doctor_and_patient_alike.html"><strong>Read More</strong></a></p></span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item3 w3-animate-right" style="padding-top: 0px;grid-row: auto;">
+            <div style="display: flex;background-color: bisque;padding: 10px;">
+              <div>
+                <h2 style="padding-left:20px;">CONVICTION RULES SUSHMITA’S UNIVERSE</h2>
+                <p style="padding-left:20px;"><strong>She has ruled the Universe, written her own rules in life and follows the golden rule of being convinced about one's action.</strong><br><br>
+                  With beauty and brains on her side and her histrionics cementing her position in the world of show-biz, former Miss Universe and actor Sushmita Sen is dazzling like a diamond these days.
+                  <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="conviction_rules_sushmitas_universe.html"><strong>Read More</strong></a></p></span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item3 w3-animate-right" style="padding-top: 0px;grid-row: auto;">
+            <div style="display: flex;background-color: bisque;padding: 10px;">
+              <div>
+                <h2 style="padding-left:20px;">‘WE HOPE DUBAI WILL GIVE US A STANDING OVATION’</h2>
+                <p style="padding-left:20px;"><strong>Normally actors spend their best years in acting and then graduate into direction and production which is when they start believing in the theory of return on investment!</strong><br><br>
+                  But a young and peppy actress, who was noticed in films like Masti, Dhund and Krishna Cottage, did not wait for the years to pass by before taking on the baton of a director. Divya Palat is the director of the hugely successful theatre production The Graduate which is set to be staged in Dubai tomorrow at the Madinat Jumeirah. She talks exclusively to City Times:
+                  <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="we_hope_dubai.html"><strong>Read More</strong></a></p></span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item3 w3-animate-right" style="padding-top: 0px;grid-row: auto;">
+            <div style="display: flex;background-color: bisque;padding: 10px;">
+              <div>
+                <h2 style="padding-left:20px;">ZIAD AND THE WHOLE IDEA OF POWER PLAY</h2>
+                <p style="padding-left:20px;"><strong>Life is a big gamble and not many persons are ready to gamble with their dreams without the backing of a well-wisher!</strong><br><br>
+                  How many times have each one of us aspired to break through the monotony of a daily existence and forge out a more popular identity for ourselves? Not unnatural of course!
+                  <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="ziad_and_the_whole_idea_of_powerplay.html"><strong>Read More</strong></a></p></span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item3 w3-animate-right" style="grid-row: auto;display: flex;">
+            <hr width="99%" color="black" size="2">
+          </div>
+
+          <div class="item3" style="grid-row: auto;">
+            <p style="text-align: center;">Jump To Page</p>
+            <nav style="text-align: center;">
+              <a style="text-decoration: none;color: black;" href="pm.html">1</a>
+            </nav>
+          </div>
+  
+    </div>        
+    <br><br><br>
+    <footer style="background-color: honeydew;padding-top: 5px;">
+      <hr size="1" width="99%" color="black">
+      <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+    </footer>  
+</body>
+</html>

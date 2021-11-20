@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    
+    <title>We hope Dubai will give us a standing ovation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+    
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+
+    #more {display: none;}
+
+    button:hover{
+      opacity: 0.5;
+    }
+
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <div class="grid-container">
+      <div class="item1">
+            <div class="toppane w3-animate-top" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+      </div>
+        <br><br>
+
+        <div class="item2">
+          <div class="container2 w3-animate-left" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3" style="display: flex;flex-direction: column;">
+          <h1 style="text-align: center;">‘WE HOPE DUBAI WILL GIVE US A STANDING OVATION’</h1>
+          <h3 style="text-align: center;">Read the article about this event on <a href="https://www.khaleejtimes.com/city-times/we-hope-dubai-will-give-us-a-standing-ovation" target="_blank" style="color: black;">khaleejtimes</a> or here, at <a href="#article" style="color: black;">Global Konnekt</a></h3>
+        </div>
+
+        <div class="item3" style="display: flex;grid-row: auto;flex-direction: column;background-color: aliceblue;padding: 10px;" id="article">
+          <h1>‘WE HOPE DUBAI WILL GIVE US A STANDING OVATION’</h1>
+          <p>
+            <strong>Jyoti Easwaran</strong><br>
+            <cite>Filed on Thu 13 Jan 2005, 4:02 PM</cite><br><br>
+            Normally actors spend their best years in acting and then graduate into direction and production which is when they start believing in the theory of return on investment!
+            <span id="dots">...</span><span id="more">
+                But a young and peppy actress, who was noticed in films like Masti, Dhund and Krishna Cottage, did not wait for the years to pass by before taking on the baton of a director. Divya Palat is the director of the hugely successful theatre production The Graduate which is set to be staged in Dubai tomorrow at the Madinat Jumeirah. She talks exclusively to City Times:
+                <br><br>
+                <strong>How did you get interested in the world of showbiz? What are your earliest impressions of the world of entertainment around you?</strong>
+                <br><br>
+                I have wanted to act and be a part of the entertainment industry since I was three years old. In fact I did my first ad at the age of three. I have never wanted to do or be a part of anything else. I love entertainment. It fascinates me no end that no matter who you are — the President or a farmer — you need entertainment, you watch films. It's a fascinating world. I love it.
+                <br><br>
+                <strong>How satisfied have you been with your acting career? What have been the major highlights in your career?</strong>
+                <br><br>
+                I act purely because I love it. Therefore I am very satisfied with all my choices as they have been films I truly enjoy. When Masti became a huge hit, I loved it — that was definitely a huge high! When Krishna Cottage and Masti released one after another and I went to the hall and people were taking autographs and telling me they loved the films, it felt tremendously wonderful. I have to say I loved every minute.
+                <br><br>
+                <strong>You have made a transition from acting to directing. How do you view the challenges of directing as compared to acting?</strong>
+                <br><br>
+                I am studying at Stanford University where I am doing a double major in Mathematics and Dramatic Arts — so I have always balanced intellect and emotion. I think with acting, it’s fun to let yourself go and enjoy the scene. In direction however you learn to look at the larger picture — balance all the other actors and ensure the product looks great. I think if you have a good balance in acting and direction, well it's the best thing in the world. I get to act through my actors, yet at the same time — this is my play, my product and my baby. It's the best job in the world.
+                <br><br>
+                <strong>With so many established directors in theatre and film how do you plan to carve a niche for yourself?</strong>
+                <br><br>
+                With The Verdict and The Graduate, on stage I believe I am slowly but surely carving my own niche. I have now been offered films to direct as well and will definitely direct in the near future. As a director, my strength, I think, lies in the research put into the story. I love handling actors and it gives me great pleasure watching wonderful scripts come to life. My Production House Balancing Act Productions plans on making marketable, enjoyable, larger than life films and plays. We are bringing out two new mega productions this year. We plan on getting people back in to theatres to watch wonderful plays and musicals and we have a huge year in store for us.
+                <br><br>
+                <strong>The pitfalls of directing many established actors do seem scary at times in coping with their sensibilities and understanding. How do you manage to overcome these emotions and the larger than life images of your stars?</strong>
+                <br><br>
+                I love my actors. Zeenat was my one and only choice for Mrs. Robinson and she loved the script and we got along wonderfully. She's a director's delight and we have a fabulous working relationship. I waited till a month prior to the show to cast 'Elaine' till I finally I met Raageshwari. As she walked in to the room, I said, ‘That's Elaine (her character’s name)!' She is one of the nicest, most hard working actresses ever and I'm so glad I auditioned so many actresses and held out till I met someone who is absolutely perfect for the role. Besides that she is one star with absolutely no attitude. She is a pleasure to work with.
+                <br><br>
+                <strong>What major plans do you have for 2005? How rewarding has been the attempt with The Graduate in India? What are your expectations from the Dubai audience?</strong>
+                <br><br>
+                Two mega productions... Two films that I am acting in! And hopefully — provided I find the right script (I have listened to over 20!) — maybe my Hindi film directorial debut.
+                <br><br>
+                The Graduate has had housefull shows in Mumbai and has been asked to tour the country. It was arguably India's finest musical production.
+                <br><br>
+                We hope that Dubai will give us the standing ovations we had in Mumbai. Ours is a young theatre group and our attempt has always been to put up something different. For fabulous sets, come to The Graduate and for unbelievable actors, come to The Graduate.
+                <br><br>
+                <strong>The sets of Graduate are supposed to be lavish. How similar is it to the Oscar award winning film?</strong>
+                <br><br>
+                The play was written based on the original novel and the film. The play, I believe, is funnier, sharper and wittier. It is a winner all the way. The sets are lavish and the actors are from Bollywood because for me this play is larger than life. For me theatre is an extravaganza. You get to see your favourite actors live. You get to see your favourite stories told to you live. With small sets and non-descript actors, I think we would let down not only The Graduate, ourselves but also theatre.
+                <br><br>
+                <strong>Visual extravaganza</strong>
+                <br><br>
+                'The Graduate,' the musical theatrical adaptation of the Oscar award winning film, is the largest musical ever done on an Indian stage. It is a visual extravaganza with six sets which have been made exclusively for the musical. The entire production team consists of 35 people.
+                <br><br>
+                The play has had 26 houseful shows in Mumbai. Zeenat Aman, Raageshwari and Aditya Hitkari play the lead roles in 'The Graduate.' The play is the first in India to have a live acapella band, Conchorde, who sing the original Simon and Garfunkel soundtrack during scenes and scene changes.
+                <br><br>
+                The Graduate, a story of love and lust, of dreams and difficult choices, is a play that every individual can identify with. It is an official DSF event.
+                <br><br>
+                <strong>The show is brought to Dubai by Channel 4 events and presented by Me Bank, Cellucom among other participating companies. Tickets are available at all Spinneys outlets and at the venue.The show starts at 8pm.</strong>
+            </span>
+            </p>
+        </div>
+
+        <div class="item3" style="grid-row: auto;">
+          <button onclick="myFunction()" id="myBtn" style="background-color: rgba(223, 104, 35);border: none;  color: white;padding: 15px 32px;text-align: center;text-decoration: none;">Read more</button>
+        </div>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more"; 
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less"; 
+              moreText.style.display = "inline";
+            }
+          }
+          </script>
+
+      </div>
+      <br><br><br>
+      <footer style="background-color: honeydew;padding-top: 5px;">
+        <hr size="1" width="99%" color="black">
+        <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+      </footer>  
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    <title>Global Konnekt- Travel, Hotels & Resorts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+    img:hover{
+      opacity: 0.8;
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header;}
+    .item2 { grid-area: menu;}
+    .item3 { grid-area: main;}
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+    
+    .mainimg{
+      width: 400px;
+      height: 300px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+          .mainimg {
+            width: 250px;
+            height: 150px;
+          }
+
+          #hoteller{
+            font-size: small;
+          }
+
+        }
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <div class="grid-container">
+        <div class="item1 w3-animate-top">
+            <div class="toppane" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="item2 w3-animate-left">
+          <div class="container2" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a style="color: green;" href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3 w3-animate-right" style="padding-top:0px;">
+          <nav style="text-align: right;">
+            <a style="color: aliceblue;" href="#hotels">Hotels & Resorts</a>
+            <a style="color: aliceblue;" href="#travel">Travel</a>
+          </nav>
+          <h1 style="text-align: center;background-color: aliceblue;" id="hotels">Hotels & Resorts</h1>
+          <div style="display: flex;background-color:bisque;padding: 10px;" id="hoteller">
+            <img style="border: 3px solid blanchedalmond;" class="mainimg" src="images/38709907_10155806482868036_5092507156243021824_n.jpg" alt="Jyoti at Veeraswamy">
+            <div>
+              <h2 style="padding-left:20px;">My Date With Veeraswamy</h2>
+              <p style="padding-left:20px;"><strong>Jyoti Easwaran travels back in time to the Raj era at Veeraswamy</strong><br><br>
+                My Virgin Atlantic flight to London saw me enjoying two interesting movies ,Viceroys House directed by Gurinder Chadha and Victoria and Abdul which has Dame Judi Dench playing the matronly Queen Victoria with restrain and power. The thoughts of importance of regal fervour in day to day life of Londoners was weighing heavily in my mind with historical monuments posing with élan and confidence surrounded by an air of nostalgia, glory, acts of subservience, wars, and of course the unmistakable fondness for Curries and Indian Cuisine.
+                <span style="text-decoration:none;text-align:end;"><p style="padding-left: 20px;"><a style="color: black;" target="_blank" href="my_date_with_veeraswamy.html"><strong>Read More</strong></a></p></span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item3 w3-animate-right" style="padding-top:0px;grid-row: auto;">
+          <div style="display: flex;background-color:bisque;padding: 10px;" id="hoteller">
+            <img style="border: 3px solid blanchedalmond;" class="mainimg" src="images/foothillsofheaven.jpg" alt="foothillsofheaven">
+            <div>
+              <h2 style="padding-left:20px;">Foothills Of Heaven</h2>
+              <p style="padding-left:20px;"><strong>Jyoti Easwaran visits Ananda In The Himalayas, the award-winning destination spa, in her search for the best holistic approach to wellness</strong><br><br>
+                Travel manifests itself in many forms — business, pleasure, religious, adventure and routine. For me, travel has been an integral part of my learning and experiences. As a healthcare professional, I continuously explore products, destinations and solutions, therapists and systems that try to infuse an holistic approach to life. That quest was answered in my visit to Ananda In The Himalayas.
+                <span style="text-decoration:none;text-align:end;"><p style="padding-left: 20px;"><a style="color: black;" target="_blank" href="foothills_of_heaven.html"><strong>Read More</strong></a></p></span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item3 w3-animate-right" style="padding-top:0px;grid-row: auto;">
+          <div style="display: flex;background-color:bisque;padding: 10px;" id="hoteller">
+            <img style="border: 3px solid blanchedalmond;" class="mainimg" src="images/AR-305119992.jpg&MaxW=780&imageVersion=16by9&NCS_modified=20150402203446" alt="foothillsofheaven">
+            <div>
+              <h2 style="padding-left:20px;">Southern streak of spas</h2>
+              <p style="padding-left:20px;"><strong>Bangalore, the land of silks, gardens, and software added one more feather to its cap recently when it was voted the best place to live in India.</strong><br><br>
+                The city has become a cosmopolitan destination attracting professionals from all across the country — and from across the globe.
+                <span style="text-decoration:none;text-align:end;"><p style="padding-left: 20px;"><a style="color: black;" target="_blank" href="southern_streak_of_spas.html"><strong>Read More</strong></a></p></span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item3 w3-animate-right" style="padding-top:0px;grid-row: auto;">
+          <div style="display: flex;background-color:bisque;padding: 10px;" id="hoteller">
+            <img style="border: 3px solid blanchedalmond;" class="mainimg" src="images/itlnl1.jpg" alt="foothillsofheaven">
+            <div>
+              <h2 style="padding-left:20px;">IN THE LAP OF NATURAL LUXURY</h2>
+              <p style="padding-left:20px;"><strong>Jyoti Easwaran visits the enchanting Carnousti Ayurveda and Wellness Resrort in Kerala and comes back rejuvenated.</strong><br><br>
+                My search for a perfect luxurious short holiday ended at the premium destination of Carnoustie Ayurveda and Wellness resort at Cherthala Cochin district in Kerala Voted as the most friendly holiday state in India
+                <span style="text-decoration:none;text-align:end;"><p style="padding-left: 20px;"><a style="color: black;" target="_blank" href="IN_THE_LAP_OF_NATURAL_LUXURY.html"><strong>Read More</strong></a></p></span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item3 w3-animate-right" style="padding-top:0px;grid-row: auto;">
+          <h1 style="text-align: center;background-color: aliceblue;" id="travel">Travel</h1>
+          <div style="display: flex;background-color:bisque;padding: 10px;" id="hoteller">
+            <img style="border: 3px solid blanchedalmond;" class="mainimg" src="" alt="Thailand">
+            <div>
+              <h2 style="padding-left:20px;">A visit to Thailand</h2>
+              <p style="padding-left:20px;"><strong>Two exotic Thai spa destinations that offer you holistic rejuvenation</strong><br><br>
+                A recent visit to Thailand — the land of smiles — offered me the chance to experience two exotic spa destinations: Rayawadee in Krabi and Chiva Som on Hua Hin Beach.
+                <span style="text-decoration:none;text-align:end;"><p style="padding-left: 20px;"><a style="color: black;" target="_blank" href="a_recent_visit_to_thailand.html"><strong>Read More</strong></a></p></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="item3 w3-animate-right" style="grid-row: auto;display: flex;">
+          <hr width="99%" color="black" size="2">
+        </div>
+
+        <div class="item3" style="display:flex;grid-row: auto;margin: auto;flex-direction: column;">
+          <br><br>
+          <iframe style="margin: auto;" width="547" height="307" src="https://www.youtube.com/embed/oAABNNTDlW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h2 style="text-align: center;">Govindas Jumeirah Launch by Global Konnekt</h2>
+        </div>
+
+        <div class="item3" style="display:flex;grid-row: auto;margin: auto;flex-direction: column;">
+          <br><br>
+          <iframe width="547" height="307" src="https://www.youtube.com/embed/wiZMjT4iQ-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h2 style="text-align: center;">Spa Trek Global Konnekt</h2>
+        </div>
+
+    </div>
+
+    <br><br><br>
+    <footer>
+      <hr size="1" width="99%" color="black">
+      <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
