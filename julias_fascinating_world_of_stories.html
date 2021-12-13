@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    
+    <title>The Day of Human Intellect</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+    
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+
+    #more {display: none;}
+
+    button:hover{
+      opacity: 0.5;
+    }
+
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <div class="grid-container">
+      <div class="item1">
+            <div class="toppane w3-animate-top" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+      </div>
+        <br><br>
+
+        <div class="item2">
+          <div class="container2 w3-animate-left" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3" style="display: flex;flex-direction: column;">
+          <h1 style="text-align: center;">JULIA’S FASCINATING WORLD OF STORIES</h1>
+          <h3 style="text-align: center;">Read the article about this event on <a href="https://www.khaleejtimes.com/city-times/julias-fascinating-world-of-stories" target="_blank" style="color: black;">khaleejtimes</a> or here, at <a href="#article" style="color: black;">Global Konnekt</a></h3>
+        </div>
+
+        <div class="item3" style="display: flex;grid-row: auto;flex-direction: column;background-color: aliceblue;padding: 10px;" id="article">
+          <h1>JULIA’S FASCINATING WORLD OF STORIES</h1>
+          <p>
+            <strong>Jyoti Easwaran</strong><br>
+            <cite>Filed on Fri 19 Nov 2004, 3:53 PM</cite><br><br>
+            'Once upon a time' — the eagerly awaited words conjure up images of kings and queens, animals, magic and all things that elevate your sense of well being with the minimum of frills and fancies. The world of stories has been around since man started communicating with signs
+            <span id="dots">...</span><span id="more">
+                and words and syllables. And in today's fast paced world, stories are a real boon to help kids inculcate a love for words and the grammar of sentences!
+                <br><br>
+                She is British by origin, a lover of Arabic culture and continues to be a student of the extensive Middle Eastern way of life. Her interests range from theatre to reading, pearls to understanding the Bedouin life, caravans in Arabia, the dates and its uses and she weaves a poetic and straight tale around her observations for children.
+                <br><br>
+                With her latest books to hit the market Julia Johnson — a familiar name in the Middle East and UK — talks exclusively to City Times on her observations of life and the need for good quality books with interesting illustrations. She was also joined by her daughter Emily Styles who has illustrated her book and Kitty Carruthers, the production manager of Stacey International, who are the worldwide publishers of Julia's books.
+                <br><br>
+                <strong>How much of change do you see in the reading pattern among children?</strong>
+                <br><br>
+                Reading patterns have certainly changed. People no longer have the languorous approach to the art of reading! It is a little hurried affair no doubt. But a thing for sure, books and the printed word would never go out of fashion. It is a very simple tool to carry unlike a computer and an inexpensive one at that. The kids have been influenced by television but a book still is one of the most ideal gifts to initiate a child into reading.
+                <br><br>
+                <strong>What is so fascinating about the Arabic culture that you dwell upon them so often?</strong>
+                <br><br>
+                The Middle Eastern culture is a mix of intrigue, novelty, a mixture of myriad influences and, above all, a great story in itself of determination and endurance. The way countries like Oman and UAE have progressed today with the limited resources available is an absolute case of perseverance and foresight of the rulers. Arabia has deserts, mountains, wadis, and each region has its own identity with a sense of belonging to a bigger canvas. The mixed society with its interesting customs and ability to connect with the past and yet raring to go ahead is an interesting bait for me to centre most of my work around the Arabic culture.
+                <br><br>
+                <strong>How much of parental influence is essential to inculcate reading habits in children?</strong>
+                <br><br>
+                Reading together always fosters a very close relationship between the child and the parent. Schools make reading a part of their curriculum but if parents take that extra effort to read out to children books another than a syllabus, the kid will love the very concept of reading. To start young is the easiest way to be hooked to it right through life. Reading a book is the nicest way to get a sound and peaceful sleep. Even today at hotel lounges, airports, trains, stadiums and halls, one is always sure to find a person reading a book as it also saves you from being lonely a times!
+                <br><br>
+                <strong>Today’s films, cartoons, movies display an increased leaning towards subtle adult material and violence. Is there any conscious effort by the authors to rekindle a spark of innocence in kids?</strong>
+                <br><br>
+                I do agree that stories and subjects are getting wackier, fun oriented and bolder. But there is still a conscious effort by the authors to keep alive the tradition of initiating a child towards all good things in life from a very tender age.
+                <br><br>
+                If you see my book on the Cheetah, a little bit of action and so called violence projected is ultimately aimed at harping the message that power is important. Good wins over in the long run. And it is the duty of certifying authorities to ensure that adult material does not creep in kids’ stuff. A good book with a very clear and definitive subject line will be always welcome.
+                <br><br>
+                <strong>The books of fairy tales and Enid Blyton have given way to Harry Potter dwelling on a lot of supernatural stuff. Don’t you think that kids grow up to fast under the influence of these stuff?</strong>
+                <br><br>
+                Fantasy always encourages children to think beyond realism and propagates an ability to imagine, question, introspect, reason and then come to conclusions. Today’s kids are far more informed than the older generation. The popularity of Harry Potter is an example in itself. It has threaded various elements both real and fiction and presented itself as an object to learn, based on the factor of curiosity. Even in the various books of Harry Potter one sees Harry growing through the various stages and a child similarly identifies the same growing pangs when he reads it. Kids do grow up faster but also smarter to a great extent!
+                <br><br>
+                <strong>What are your latest books all about?</strong>
+                <br><br>
+                The Cheetah Tales is a story of a little girl who finds a malnourished cheetah cub in a cage and brings it home and explores the young child's relation with the wild animal. The book also gives children an insight into the conservation and ethical protection of wildlife in general. A Gift of the Sands is the story of a beautiful pearl who decides that it is the finest in the world and wants to be taken to the Sultan but goes through various situations in daily life and returns to the desert. This amusing fable gives the children an insight into life in the Arabian Gulf.
+                <br><br>
+                <strong>Did you always want to be a writer of books for children?</strong>
+                <br><br>
+                I never consciously wanted to become a writer but my love for theatre, story telling, acting and dressing up for various characters all led to writing as well. I have been involved in drama workshops, audio books, presenting stories on television for many years and always felt that being with kids and their issues, resolving them, creating stories bring me more happiness. I like Julia Donaldson, Anita Shrieve, and Bryce Courtney. I like travel writing and feel happier reading works by women. My ambition is to continue writing for children and also possibly become very rich and famous and become a household name some time.
+            </span>
+            </p>
+        </div>
+
+        <div class="item3" style="grid-row: auto;">
+          <button onclick="myFunction()" id="myBtn" style="background-color: rgba(223, 104, 35);border: none;  color: white;padding: 15px 32px;text-align: center;text-decoration: none;">Read more</button>
+        </div>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more"; 
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less"; 
+              moreText.style.display = "inline";
+            }
+          }
+          </script>
+
+      </div>
+      <br><br><br>
+      <footer style="background-color: honeydew;padding-top: 5px;">
+        <hr size="1" width="99%" color="black">
+        <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+      </footer>  
+</body>
+</html>

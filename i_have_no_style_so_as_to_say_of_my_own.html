@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    
+    <title>I have no style so as to say of my own</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+    
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+
+    #more {display: none;}
+
+    button:hover{
+      opacity: 0.5;
+    }
+
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <div class="grid-container">
+      <div class="item1">
+            <div class="toppane w3-animate-top" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+      </div>
+        <br><br>
+
+        <div class="item2">
+          <div class="container2 w3-animate-left" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3" style="display: flex;flex-direction: column;">
+          <h1 style="text-align: center;">I have no style so as to say of my own</h1>
+          <h3 style="text-align: center;">Read the article about this event on <a href="https://www.khaleejtimes.com/city-times/i-have-no-style-so-as-to-say-of-my-own" target="_blank" style="color: black;">khaleejtimes</a> or here, at <a href="#article" style="color: black;">Global Konnekt</a></h3>
+        </div>
+
+        <div class="item3" style="display: flex;grid-row: auto;flex-direction: column;background-color: aliceblue;padding: 10px;" id="article">
+          <h1>'I HAVE NO STYLE SO AS TO SAY OF MY OWN'</h1>
+          <p>
+            <strong>Jyoti Easwaran</strong><br>
+            <cite>Filed on Thu 13 Jan 2005, 4:04 PM</cite><br><br>
+            Jaya Bachchan tells CT about how her struggle and experiences in real life have shaped up the characters she has played on screen and on stage
+            <span id="dots">...</span><span id="more">
+                As an actress Jaya Bachchan has always been the darling of critics and is known for her roles in both films and theatre. She began her career under some great stalwarts of the Indian film industry and also has worked with the new crop of directors who have brought a new dimension to her acting capabilities. The actress and member of parliament of India talked to City Times on her experiences in the film world and how struggle was an inherent part of her existence. She plays the lead role in Dr Mukta a theatre production by Sanjay Goradia and directed by Ramesh Talwar which will be staged in the city today.
+                <br><br>
+                "I have always connected myself with struggle or Sangharsh as in Hindi and that experience makes one feel humble and wiser. Struggle in family, career or interpersonal relations always bring out various moods and emotions that help portray characters in theatre or films. Life is never a bed of roses and each one struggles to get something."
+                <br><br>
+                <strong>How different is the experience of being on stage compared to films?</strong>
+                <br><br>
+                Theatre always keeps me alert and the instant reaction from the audience is there for me to gauge the depth of my performance. Since there are no retakes one has to be always much focused, alert and no lapses in performance can be accepted. I have always been an actress from cinema and theatre has been a new medium, but since the passion for acting is inborn this new tryst also is exciting and demanding!
+                <br><br>
+                Dr Mukta is a very intense story which is all the more difficult to portray on stage. It is all about one's struggle to find meaning in one's existence and that is where the experience of struggle comes in handy! The character gets into the skin and almost envelopes you. It is almost like a spillover of the real persona. In fact till the play is over I prefer not to socialise much or let my thoughts go out of that sphere! I want the character to get into my skin so as to deliver the best in terms of poignancy and feeling and turmoil.
+                <br><br>
+                <strong>Having worked with directors of yesteryears and today's generation what are the changes that you see?</strong>
+                <br><br>
+                Oh! I started with veterans and I was always in awe of them, but the discipline is something that I learnt from them. Today you have Karan Johar and Nikhil Advani who are very sure what they want from you! The younger generation is better informed in terms of techniques, trends, sets, business, viability and hence they make movies with a lot of passion without losing focus of their commercial objectives. I have no style so as to say of my own. I leave it to the director to extract the best out of me. I have done several serious roles in the course of my career, but I would like to take on lighter roles. They are lighter on the mind and people like Karan and Nikhil do incorporate lot of comedy in their products.
+                <br><br>
+                <strong>Any recent films that you really enjoyed?</strong>
+                <br><br>
+                I really liked Bride and Prejudice and Raincoat. Both were different. One was a breezy film while the other had a serious content, but both were interesting in terms of the subject and its narration.
+                <br><br>
+                <strong>How do you feel about your son's success as compared to your husband's stardom?</strong>
+                <br><br>
+                I think it would be gross injustice to judge them on the same platform. You are comparing someone who has a career span of 34 years to someone who is just blossoming. Over the same span of time and experience I would be happy if Abhishek surpasses Amitabh in stardom and appreciation. As a mother I am concerned about his career, but as a professional, I think he is slowly but surely making his mark in the right direction.
+                <br><br>
+                <strong>How do you feel about your new found responsibilities as a member of the parliament?</strong>
+                As a member of the Upper House I don't have to deal with much of politics, but the nice thing is that I get to spend some extra time with my daughter and grand children when I am in Delhi. That is a sure bonus! As a grand mother it sure brings lot of joy to be with them whenever possible.
+            </span>
+            </p>
+        </div>
+
+        <div class="item3" style="grid-row: auto;">
+          <button onclick="myFunction()" id="myBtn" style="background-color: rgba(223, 104, 35);border: none;  color: white;padding: 15px 32px;text-align: center;text-decoration: none;">Read more</button>
+        </div>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more"; 
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less"; 
+              moreText.style.display = "inline";
+            }
+          }
+          </script>
+
+      </div>
+      <br><br><br>
+      <footer style="background-color: honeydew;padding-top: 5px;">
+        <hr size="1" width="99%" color="black">
+        <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+      </footer>  
+</body>
+</html>

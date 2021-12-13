@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    
+    <title>Global Konnekt- Press & Media</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">    
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+    img:hover{
+      opacity: 0.8;
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+      .mainimg{
+      width: 400px;
+      height: 300px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+          .mainimg {
+            width: 300px;
+            height: 200px;
+          }
+    }
+    
+    .mainimg2{
+      width: 300px;
+      height: 300px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+      .mainimg2 {
+            width: 200px;
+            height: 200px;
+          }
+        }
+
+    .mainimg3{
+      width: 250px;
+      height: 300px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+          .mainimg3 {
+            width: 150px;
+            height: 200px;
+          }
+        }
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <div class="grid-container">
+        <div class="item1 w3-animate-top">
+            <div class="toppane" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="item2 w3-animate-left">
+          <div class="container2" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a style="color: green;" href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3 w3-animate-right" style="padding-top: 20px;">
+          <div style="display: flex;background-color: bisque;padding: 10px;">
+            <div>
+              <h2 style="padding-left:20px;">MANAGING YOUR MONEY IS THEIR BUSINESS</h2>
+              <p style="padding-left:20px;"><strong>Wealth creation is an activity that could consume your entire life.</strong><br><br>
+                It challenges your physical stamina, business acumen, market intelligence and emotional diligence to create, sustain the bounty and consolidate it for a future need. Business houses all over the world have specialists to manage their money and money markets on an individual and company status. People might find it strange but a gnawing need does arise when the investment plans are not conducive to the market conditions and the return on investment neither guarantees you an emotional security or a physical increase in numbers.
+                <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="managing_your_money_is_the_business.html"><strong>Read More</strong></a></p></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="item3 w3-animate-right" style="padding-top: 0px;grid-row: auto;">
+            <div style="display: flex;background-color: bisque;padding: 10px;">
+              <div>
+                <h2 style="padding-left:20px;">DUBAI, THE FASHION HUB</h2>
+                <p style="padding-left:20px;"><strong>Reinhard Dopfer, managing director and board member of European Fashion and Textile Export Council, who was in town recently talks exclusively to City Times on the emerging trends in fashion and how Dubai continues to remain the hub of style in the Middle East.</strong><br><br>
+                    Changes have been sweeping across the globe and fashion is one of the prime movers along with technology. A polarisation is becoming very evident in the sense of the needs for the mass market and the discerning consumer. Textile and garment production is undergoing a lot of liberalisation due to policy changes. Very strong presence of Chinese products is becoming predominant and there is a decline in the European markets. Increasing cooperation between countries where wages are cheaper is taking place and some of the countries like Mexico, India, Indonesia, Venezuela, and others are reaping the benefits.
+                    <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="dubai_the_fashion_hub.html"><strong>Read More</strong></a></p></span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item3 w3-animate-right" style="padding-top: 0px;grid-row: auto;">
+            <div style="display: flex;background-color: bisque;padding: 10px;">
+              <div>
+                <h2 style="padding-left:20px;">THE DAY OF THE HUMAN INTELLECT</h2>
+                <p style="padding-left:20px;"><strong>The human mind was the subject of focus and intellect and knowledge took centre stage on Monday at the Dubai Convention centre</strong><br><br>
+                    The human mind was the subject of focus and intellect and knowledge took centre stage on Monday at the Dubai Convention centre when more than a couple of thousand distinguished representatives of Corporate Arabia listened in rapt attention as luminaries from the Western world rolled out simple recipes to foster the spirit of Leadership and help it attain heights of illuminating brilliance that permeates through an organisation.
+                    <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="the_day_of_human_intellect.html"><strong>Read More</strong></a></p></span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item3 w3-animate-right" style="padding-top: 0px;grid-row: auto;">
+            <div style="display: flex;background-color: bisque;padding: 10px;">
+              <div>
+                <h2 style="padding-left:20px;">JULIA’S FASCINATING WORLD OF STORIES</h2>
+                <p style="padding-left:20px;"><strong>'Once upon a time'</strong><br><br>
+                    — the eagerly awaited words conjure up images of kings and queens, animals, magic and all things that elevate your sense of well being with the minimum of frills and fancies. The world of stories has been around since man started communicating with signs
+                  <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="julias_fascinating_world_of_stories.html"><strong>Read More</strong></a></p></span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item3 w3-animate-right" style="padding-top: 0px;grid-row: auto;">
+            <div style="display: flex;background-color: bisque;padding: 10px;">
+              <div>
+                <h2 style="padding-left:20px;">The Meeting of Minds</h2>
+                <p style="padding-left:20px;"><strong>If there is one thing that is permanent in this world then it is Change.</strong><br><br>
+                  Change in attitudes, styles, methodology all contribute to retaining the vibrancy in the corporate world. A spin in the environment is needed to inject that fresh dose of ideas and strategies to drive business ahead.
+                    <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="the_meeting_of_minds.html"><strong>Read More</strong></a></p></span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item3 w3-animate-right" style="padding-top: 0px;grid-row: auto;">
+            <div style="display: flex;background-color: bisque;padding: 10px;">
+              <div>
+                <h2 style="padding-left:20px;">THE ULTIMATE IN BEAUTY YOU CAN GRASP!</h2>
+                <p style="padding-left:20px;"><strong>She rests on a heap of soft silk red in all her grandeur untouched by anyone.</strong><br><br>
+                  Her entire being is swathed in mesmerising whiteness that could blind a man with the sheer power of radiance. Diamonds cover her and the aura is unbeatable.
+                  <span style=text-decoration:none;text-align:end;"><p style="padding-left:20px;"><a style="color: black;" target="_blank" href="the_ultimate_in_beauty_you_can_grasp.html"><strong>Read More</strong></a></p></span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item3 w3-animate-right" style="grid-row: auto;display: flex;">
+            <hr width="99%" color="black" size="2">
+          </div>
+
+          <div class="item3" style="grid-row: auto;">
+            <p style="text-align: center;">Jump To Page</p>
+            <nav style="text-align: center;">
+              <a style="text-decoration: none;color: black;" href="pm.html">1</a>
+              <a style="text-decoration: none;color: black;" href="pm_2.html">2</a>
+              <a style="text-decoration: none;color: black;" href="pm_3.html">3</a>
+              <a style="text-decoration: none;color: black;" href="#">4</a>
+              <a style="text-decoration: none;color: black;" href="pm_5.html">5</a>
+            </nav>
+          </div>
+  
+    </div>        
+    <br><br><br>
+    <footer style="background-color: honeydew;padding-top: 5px;">
+      <hr size="1" width="99%" color="black">
+      <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+    </footer>  
+</body>
+</html>

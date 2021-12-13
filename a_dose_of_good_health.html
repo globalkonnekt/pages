@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    
+    <title>A Dose of Good Health</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+    
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+
+    #more {display: none;}
+
+    button:hover{
+      opacity: 0.5;
+    }
+
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <div class="grid-container">
+      <div class="item1">
+            <div class="toppane w3-animate-top" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+      </div>
+        <br><br>
+
+        <div class="item2">
+          <div class="container2 w3-animate-left" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3" style="display: flex;flex-direction: column;">
+          <h1 style="text-align: center;">A Dose of Good Health</h1>
+          <h3 style="text-align: center;">Read the article about this event on <a href="https://www.khaleejtimes.com/city-times/a-dose-of-good-health" target="_blank" style="color: black;">khaleejtimes</a> or here, at <a href="#article" style="color: black;">Global Konnekt</a></h3>
+        </div>
+
+        <div class="item3" style="display: flex;grid-row: auto;flex-direction: column;background-color: aliceblue;padding: 10px;" id="article">
+          <h1>A DOSE OF GOOD HEALTH</h1>
+          <p>
+            <strong>Jyoti Easwaran</strong><br>
+            <cite>Filed on Sat 8 Jan 2005, 3:57 PM</cite><br><br>
+            Mike Eaton the 44 year old head of Roche consumer healthcare division has put in more than 18 years of experience in the healthcare industry and having worked in different markets as culturally diverse as the Caribbean Islands, Ireland, Africa
+            <span id="dots">...</span><span id="more">
+                a stint with the Navy, enjoys the rush of urbane life, pops up vitamins for its energy and benefits. He believes in going ahead with all changes around him, loves the vibrancy and rich colours of India, enjoys cooking occasionally and shares with City Times his thoughts on medicines and the industry that keeps us healthy!
+                <br><br>
+                <strong>The healthcare sector is growing at a frenzied pace with new developments in the world. How would you look at yourself, as a company involved more in the quest of new remedies or enhancing the well being of a person through customer education?</strong>
+                <br><br>
+                Health care is one of the biggest sectors today which is embracing technology, innovation, basic research and marketing all with such a force that it is up to the market to accept the changes that are sweeping! Developments are happening every fraction of a second somewhere and the healthcare professionals today can't remain tied to their specified boundaries! I look upon myself as a healthcare professional with an open approach to anything that is new, innovative and promises to alleviate the sufferings of mankind! I am a part of a mission of my company that is a leader in the quest to unravel discoveries in medical sciences and drugs to improve the well being of a consumer.
+                <br><br>
+                <strong>What are the changes that you have seen for the last twenty years in the common man's understanding of diseases and medicines?</strong>
+                Education is the prime mover in the understanding of diseases and medicines! Today with the abundance of information of diseases, medicines, their composition, effects, and other legal aspects in the use of drugs a consumer is well aware of what he is having. Ladies who have been emotionally associated with the healthcare of the family today have most of the information at the click of a mouse! The biggest change I would say is the dissemination of information to not only the medical fraternity but to the end consumer on a straight note! That puts up a big alert to all the pharmaceutical companies!
+                <br><br>
+                <strong>Life in the days of old did not demand so many multivitamins. But today along with a breakfast, we pop up pills to revive and energise ourselves. Is it necessary or a classic case study of influence and marketing ploys by the multinational giants to boost sales volumes?</strong>
+                I would put it this way! We need a balanced diet and our food today is not able to provide with all the nutrients that we need. Stress and travel are the real culprits in depleting our body of its resources and strength. Everything is changing in the world. The world is more polluted and hence the natural goodness of any consumable item is a big question! Multivitamins are a multi million dollar industry and apart from the sales and marketing strategies to boost a company's bottom line they are today seen as necessities to enhance well being and longevity of a person!
+                <br><br>
+                <strong>Some of your brands like Supradyne, Rennie, Elvit and Valium have been very successful. But on a very impersonal note has it also not led to habit forming situations among millions of consumers across the globe?</strong>
+                Direct marketing no doubt is a prime mover but at the end of the day the consumer is the king! He will vouch for a brand that he is satisfied with and comfortable with. Brand loyalty and the confidence of a consumer in the company is built with passage of time. Elvit is one of the striking examples of a vitamin which helps in babies being born without a cleft palate and our clinical trials support it and medical practitioners support it worldwide! We are very ethical in our marketing approach! Roche believes in lots of consumer education and apart from the bonuses and discounts that the distributors would get in being a part of the Roche family the company believes in having a one to one relation with the end user!
+                <br><br>
+                Recently at a conference in Dubai, Tom Peters referred to the merger of two big pharmaceutical giants as "the dance death of the dinosaurs".
+                <br><br>
+                <strong>How would you validate that statement in the wake of the changes in your company's consumer health division? Synergies or survival strategies?</strong>
+                <br><br>
+                (Laughs) Good question ... but at the end of the day it is a business strategy and Roche feels its core competencies in Pharmaceuticals and diagnostics have to be addressed more urgently! We need more investments in the areas of research in cancer, Aids, and Biotechnology drugs. Our prescription business is our core thrust and we would continue to focus on diagnostics and pharmaceuticals. No acquisition comes out with a greater or equal market share!. We compete with giants like Johnson and Johnson, GSK and the consumer health division would not fit into our new strategy of things. Many times in mergers, loss of intellect and real talent happens but not much can be done about that when mergers are all about headcounts!
+                <br><br>
+                <strong>Stem cell therapy is going to revolutionise human life as the DNA did. What are Roche's major plans on drug discovery and development that could really ease human suffering in the years to come?</strong>
+                <br><br>
+                Roche is committed to new drugs and huge funding is needed for discoveries and placing them in the market! Each market is different in terms of regulations. I feel that the duration of patents have to be reviewed if companies have to recover the cost of funding new drugs! The entire business of pharmaceuticals is changing but still is not a pure out-source driven scenario! Control over procedures and technology is still guarded and it is more intellect driven than many other sectors! Middle East has a huge potential but lots of issues have to be sorted out! Re-exports is again an issue that has to be dealt carefully.
+                <br><br>
+                <strong>As a pharmaceutical professional what would you attribute your company's success to? Superior products or aggressive marketing? How do you connect with your consumer and end user?</strong>
+                <br><br>
+                I would put my company's success to people more than brands or aggressive marketing. People make businesses and the training that a company invests in an employee does pay dividends. Brands may change but people do not! Each company has its own ideology and my medical rep is my face in the market! The confidence that my representative displays results in tangible business and volumes in the long run. A consumer connects with Roche on its brand worth and company image and we as a healthcare company obviously connect through various modes of information sharing and community participation at various forums and channels.
+            </span>
+            </p>
+        </div>
+
+        <div class="item3" style="grid-row: auto;">
+          <button onclick="myFunction()" id="myBtn" style="background-color: rgba(223, 104, 35);border: none;  color: white;padding: 15px 32px;text-align: center;text-decoration: none;">Read more</button>
+        </div>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more"; 
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less"; 
+              moreText.style.display = "inline";
+            }
+          }
+          </script>
+
+      </div>
+      <br><br><br>
+      <footer style="background-color: honeydew;padding-top: 5px;">
+        <hr size="1" width="99%" color="black">
+        <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+      </footer>  
+</body>
+</html>

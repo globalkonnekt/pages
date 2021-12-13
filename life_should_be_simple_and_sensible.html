@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;" lang="en">
+<head>
+    
+    <title>Life should be simple and sensible</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "images/gkicon.jpg" type = "image/x-icon">
+    <style>
+
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+    
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container a{
+      float:left;
+      color: #000;
+      text-align: center;
+      padding: 12px 14px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    .container a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .container a.active {
+      background-color: grey;
+      color: white;
+    }
+    .image {
+      flex-basis: 40%
+    }
+
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: center;
+    }
+
+    .fa 
+    {
+      padding: 10px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .fa-facebook 
+    {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .mainlogo {
+      width: 300px;
+      float: left;
+      padding-left: 20px;
+    }
+
+    .container2 {
+      position: relative;
+      font-size: 20px;
+      width: fit-content;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .container2 a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .container2 a:hover{
+        color: blue;
+    }
+
+    .toppane {
+      padding: 20px 0px 0px 0px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main main main'
+          'menu main main main main main';
+        grid-gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin:auto;
+      }
+
+
+    #more {display: none;}
+
+    button:hover{
+      opacity: 0.5;
+    }
+
+
+  </style>
+</head>
+<body style="background-attachment: fixed;background-image: url(images/BG.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: rgb(185, 93, 59);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <div class="grid-container">
+      <div class="item1">
+            <div class="toppane w3-animate-top" style="width: 100%;margin: auto;">
+                <img class="mainlogo" src="images/globalkonnekt.png" alt="globalkonnekt">
+                <a href="https://www.facebook.com/jyoti.easwaran.1" style="float:right;" class="fa fa-facebook" ></a>
+                <a href="https://instagram.com/joeiyer123?utm_medium=copy_link" style="float: right;" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/jyoti-easwaran-46a816a" style="float: right;" class="fa fa-linkedin"></a>
+                <a href="https://www.youtube.com/channel/UC4NX9z9FRqDZDL-82DPSdnw" target="_blank" style="float: right;" class="fa fa-youtube"></a>
+                <br><br><br><br>
+                <div class="container" style="background-color: aliceblue;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: auto;padding:0px;list-style-type: none;width: 100%;">
+                    <a class="text" style="display: block;" href="index.html">Home</a>
+                    <a class="text" style="display: block;" href="events.html">Events</a>
+                    <a class="text" style="display: block;" href="gallery.html">Gallery</a> 
+                    <a class="text" style="display: block;" href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+      </div>
+        <br><br>
+
+        <div class="item2">
+          <div class="container2 w3-animate-left" style="border-right : 1px solid black;">
+            <ol style="background-color: aliceblue;padding: 30px;justify-content: center;"><span style="font-size: 25px;padding-bottom: 5px;"><span style="color: #3B5998;">KNOW</span><span style="color: coral;">MORE</span></span>
+            <li style="padding: 10px 0px 7px 0px;"><a href="thr.html">Travel, Hotels and Resorts</a></li>
+            <li style="padding-bottom: 7px;"><a href="fl.html">Food and lifestyle</a></li>
+            <li style="padding-bottom: 7px;"><a href="ac.html">Art and Culture</a></li>
+            <li style="padding-bottom: 7px;"><a href="pm.html">Press and Media</a></li>
+            <li><a href="rb.html">Retail Buzz</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="item3" style="display: flex;flex-direction: column;">
+          <h1 style="text-align: center;">LIFE SHOULD BE SIMPLE AND SENSIBLE: ROBERT</h1>
+          <h3 style="text-align: center;">Read the article about this event on <a href="https://www.khaleejtimes.com/city-times/life-should-be-simple-and-sensible-robert" target="_blank" style="color: black;">khaleejtimes</a> or here, at <a href="#article" style="color: black;">Global Konnekt</a></h3>
+        </div>
+
+        <div class="item3" style="display: flex;grid-row: auto;flex-direction: column;background-color: aliceblue;padding: 10px;" id="article">
+          <h1>LIFE SHOULD BE SIMPLE AND SENSIBLE: ROBERT</h1>
+          <p>
+            <strong>Jyoti Easwaran</strong><br>
+            <cite>Filed on Fri 8 Oct 2004, 9:44 PM</cite><br><br>
+            I enter the room to be greeted by a young lady who gives me a small torch! I enter and and bang my head into one of the black panels! My companion and I try to wade through the darkness and maze!
+            <span id="dots">...</span><span id="more">
+              We can hear voices next to us but aren't able to get through to them! Desperation sets in and our frantic efforts to solve the maze finally pays off and we are in the room with the other guests.
+              <br><br>
+              This was the setting of the new Brand Promise and Corporate logo that was unveiled by Philips Middle East as a part of the Global campaign that is set to be unleashed across the globe. Philips a company that has been a pioneer in electronics, lifestyle and the healthcare segment is on the threshold of a new relationship building campaign which weaves around the themes of simplicity and sensibility.
+              <br><br>
+              In an exclusive interview with City Times Robert Van de Riet the CEO of Philips Middle East shares his experiences and the underlying corporate philosophies that aim to make a common mans life simpler and better.
+              <br><br>
+              <strong>How do you see yourself in the era of fierce competition as a part of survival strategies leading to a position of importance and dominance in the market place?</strong>
+              <br><br>
+              There are brand competitions where every brand tries to secure a piece of the consumers' minds. We at Philips are striving, with the new brand positioning we have introduced, at basing all our activities around three pillars which will make us better understand the consumer and hence become a better market lead company. Sense and simplicity is a part of the change mechanism that will make our company to become more marketing driven. Ours is a healthcare, technology and lifestyle company with a very strong marketing focus and our research shows that even with digital revolution around, the end user looks for simplicity in handling gadgets and situations and we have tried to address to that need.
+              <br><br>
+              <strong>What is your personal philosophy on success in life? Does success become the ultimate goal or is it a motivation to improve your values in life?</strong>
+              <br><br>
+              My philosophy is to always look to improve in all aspects of my business and personal life. Small, cautious steps continuously taken will result in improvements and positive change. A positive feeling in the environment is imperative to drive the enthusiasm and organisation to greater heights.
+              <br><br>
+              <strong>Having worked in different environments what do you think of dependence on the human emotional quotient as a tool to good interpersonal relations within an organisation?</strong>
+              <br><br>
+              Interpersonal relations are very important within an organisation. The nature of these interactions does differ from one culture to another, and some traits are acceptable in one culture and unacceptable in others. The most important thing is to be able to adapt to the culture in which you are working, being sure to always keep in mind what it is that motivates people in that culture.
+              <br><br>
+              <strong>You and your company have worked to make things better in the world. What was the most important outcome of the exercise?</strong>
+              <br><br>
+              The most positive result has been the drive toward continuous improvement and looking for ways to do things better. We have always stood for quality, durability and technology and our company tries to look for sources to enhance these factors. We have in many ways influenced the purchasing patterns of consumers across the globe and that is one of the best things to have happened! In a simple way we strive to make lives easier for our consumers.
+              <br><br>
+              <strong>How does the company consolidate and maintain its position in the wake of newer companies coming from many Asian countries?</strong>
+              <br><br>
+              We don't look at the competition as coming specifically from Asia; rather they really are global competitors. We maintain our position by finding ways to improve, to be effective, to be consistent with our customers and continually update our consumer insights. All this translates into quality products and services.
+              <br><br>
+              <strong>What was the rationale and research behind this whole campaign and a new branding exercise?</strong>
+              <br><br>
+              The new 'brand promise' is built on applying our consumer insights to the development of our products and services, while also ensuring that every product and service embodies the latest technology in a form that's intuitive for consumers to use. Simplicity is the core thrust of the entire campaign. A consumer should feel elated on acquiring a gadget and not be intimidated! The manoeuvrability of the gadget should enhance the very appeal to possess one!
+              <br><br>
+              <strong>The world market is targeting the youth of today which encompasses the age group of a trendy 22 to a wizened 55. How does your company plan to make strategies on that front?</strong>
+              <br><br>
+              Our brand promise covers both target markets. We've selected an approach that is appropriate to different ages and businesses. What's more, all these age groups are served through our long list of products in categories such as domestic appliances, consumer electronics, medical systems and lighting. As market leaders in many segments we rely on consumer demographics to plan and produce a product that is easily accepted.
+              <br><br>
+              <strong>The woman is a source of inspiration to many a man. How do you view the importance of women in the emerging market place?</strong>
+              <br><br>
+              Women are a very important target group for all our businesses. In fact, we manufacture a number of products developed to meet women's particular needs and specifically marketed to them. We always are keen to hear women's feedback on our products. They occupy a central place in our marketing efforts.
+              <br><br>
+              <strong>Life could be extremely stressful at times. How do you unwind and what is the resultant effect on the coming days ahead? Any particular hobbies?</strong>
+              <br><br>
+              Since I travel a lot on business, I like to spend my free time with my family or doing sports. My favourite sport is golf, which is an activity where I try to practice my philosophy of continual improvement.
+              <br><br>
+              <strong>Have you ever thought of doing something different in life? Is monotony ever a problem? And challenges? Do they unnerve you or energise you?</strong>
+              <br><br>
+              I enjoy my job. It gives me broad exposure to different cultures and people. Constantly changing problems and situations are exciting, especially if one has a great team with which to work them through. Competition is very exciting as well. If I could do my life over, I wouldn't make many changes at all.
+              <br><br>
+              <strong>People don't like advice normally. How much do you preach? Does a mentor's advice always hold good for you? Where do you draw the line for yourself?</strong>
+              <br><br>
+              I preach a lot, but I try to be measured. It's true; people don't like too much preaching. Yes, a mentor's advice is always welcome, especially in the context of interpersonal skills and interactions. In my long association with Philips I have viewed advice as an important tool to ones self development.
+              <br><br>
+              <strong>How do you live your everyday life? Is it a case of peaceful coexistence or a strategy to survive and outshine others?</strong>
+              <br><br>
+              My everyday life is a continuous effort to improve together with a team of great people. It is a case of peaceful coexistence with the spirit of team work that helps in improving individual personality and inspires everyone.
+              <br><br>
+              <strong>Any personal ambitions unfulfilled? Does one ever really need ambition to keep him going? Can one live by the dictum that "We will cross the river when we reach the bank"?</strong>
+              <br><br>
+              I feel continuous fulfilment in terms of my ambitions. As old ones are met, new ones always develop in line with the changing environment around us. There's never a point where you have all your ambitions fulfilled.
+              
+            </span>
+            </p>
+        </div>
+
+        <div class="item3" style="grid-row: auto;">
+          <button onclick="myFunction()" id="myBtn" style="background-color: rgba(223, 104, 35);border: none;  color: white;padding: 15px 32px;text-align: center;text-decoration: none;">Read more</button>
+        </div>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more"; 
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less"; 
+              moreText.style.display = "inline";
+            }
+          }
+          </script>
+
+      </div>
+      <br><br><br>
+      <footer style="background-color: honeydew;padding-top: 5px;">
+        <hr size="1" width="99%" color="black">
+        <p style="text-align: center;">Copyright © Global Konnekt <br> All rights Reserved.</p>
+      </footer>  
+</body>
+</html>
